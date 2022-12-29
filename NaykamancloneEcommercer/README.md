@@ -1,8 +1,5 @@
 # nykamanproject
 It's a e-commerce website cloned by us. We are team of six members and we have completed the project in 5days. 
-# Deployed Link:
-
-<h2>https://nykaaman-clone.netlify.app/</h2> 
 
 # Technology We Used :computer: 
 1. HTML5
