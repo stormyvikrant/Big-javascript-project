@@ -1,8 +1,9 @@
-# nykamanproject
+
+<<<<<<< HEAD:Ecommercerprojectnyka/README.md
+
+=======
 It's a e-commerce website cloned by us. We are team of six members and we have completed the project in 5days. 
-# Deployed Link:
-
-
+>>>>>>> 6039791205b5dd1eca0eebd741a90254375bd691:NaykamancloneEcommercer/README.md
 
 # Technology We Used :computer: 
 1. HTML5
@@ -22,16 +23,11 @@ It's a e-commerce website cloned by us. We are team of six members and we have c
 
 ## Instructions to Run the Code 
 
-- Clone the repository `https://github.com/stormyvikrant/NYKAAMAN-PROJECT-UNIT4`
+- Clone the repository `https://github.com/stormyvikrant/Big-javascript-project`
 - Then Open the code in your VS code
 - At last Open the `index.html` with Live server
 
 
-# Snapshots
-![Screenshot (1298)](https://miro.medium.com/max/1400/1*ch7XPkBJop-QFZrgvlNkSw.jpeg)
 
-![Screenshot (1300)](https://miro.medium.com/max/1400/1*6IWK5S1RHrTW_gndu6C6hQ.jpeg)
-
-![Screenshot (1301)](https://miro.medium.com/max/1400/1*ELM_5wuEukjXURQNf1Rd4A.jpeg)
 
 
