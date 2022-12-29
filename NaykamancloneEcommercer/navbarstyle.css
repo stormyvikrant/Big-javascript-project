@@ -1,0 +1,2546 @@
+html {
+    height: 100%;
+}
+body{
+    margin: 0;
+    background-size: cover;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+    background-color: rgb(243, 243, 243);
+    font-size: 14px;
+    line-height: 1;
+}
+header {
+    display: block;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.css-bxqdqd {
+    position:relative;
+    height: 155px;
+}
+.css-1qef9x9 {
+    background: #fff;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 0 2px 3px 0 rgb(0 0 0 / 10%);
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+/* css code for offer banner starts */
+
+   
+    .css-37632m {
+        position: relative;
+        
+        width: 100%;
+    }
+    .top-trips-bg {
+        background-color: #003243 !important;
+        height: 40px !important;
+        background-size: cover !important;
+    }
+    .top_strip_wrapper {
+        max-width: 1140px;
+        height: 40px;
+        margin: 0 auto;
+        display: flex;
+    }
+    .leftDiv {
+        vertical-align: middle;
+        width: 70%;
+        height: 40px;
+        margin-bottom: 0 !important;
+        font-weight: bold;
+        overflow: hidden;
+        position: relative;
+        margin-left:-10px;
+    }
+    li {
+        display: list-item;
+        text-align: -webkit-match-parent;
+    }
+            ul {
+        list-style: none;
+    }
+    .rightDiv ul li {
+        display: inline-block;
+        width: auto;
+        padding: 0 3%;
+        height: 40px;
+        line-height: 40px;
+    }
+    .rightDiv ul li a {
+        width: 100%;
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        cursor: pointer;
+    }
+    .giftcard-profile {
+        background: url(https://www.nykaa.com/media/wysiwyg/2018/SVGIMAGES/nykaa-man-desk-sprite-img.svg) no-repeat;
+        background-position: -144px -16px;
+        width: 19px;
+        height: 19px;
+        margin-top: 11px;
+        float: left;
+    }
+    
+    dl {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .contact-us-img {
+        background: url(https://www.nykaa.com/media/wysiwyg/2018/SVGIMAGES/nykaa-man-desk-sprite-img.svg) no-repeat;
+        /* background-position: -43px -38px; */
+        background-position: -74px -38px;
+        width: 19px;
+        height: 19px;
+        margin-top: 10px;
+        float: left;
+        margin-right: 5px;
+    }
+    .leftDiv a {
+        color: #fff;
+        text-decoration: none;
+    }
+    a {
+        background-color: transparent;
+    }
+    .left-message {
+
+        animation: slide 10s infinite;
+    }
+    .left-message >div{
+        height:inherit;
+        width:240px;
+    }
+    .left-message >a{
+        margin-left:0px;
+    }
+    .css-37632m .rightDiv {
+        width: 45%;
+    }
+    .rightDiv {
+        padding: 0;
+        width: 30%;
+        height: 40px;
+        line-height: 40px;
+        text-align: right;
+    }
+    .right-icons {
+        width: 100%;
+        height: 40px;
+        }
+    .right-icons > ul{
+        margin:0px 0px;
+    }
+     #offerheaderul {
+        height: 40px;
+    }
+    ol, ul {
+        list-style: none;
+    }
+    @keyframes slide{
+        0% {
+            transform: translateY(40px);
+            opacity: 1;
+        }
+        5%, 50% {
+            transform: translateY(0);
+            opacity: 1;
+        }
+        51% {
+            transform: translateY(-40px);
+            opacity: 0;
+        }
+        51.1%, 100% {
+            transform: translateY(40px);
+            opacity: 0;
+        }
+
+    }
+
+    /* css for offer banner ends */
+    /* css for mid bar starts */
+
+    .css-uhagyq {
+        border-bottom: solid 1px #e6dede;
+        position:fixed;
+        top: 40px;
+        background-color: #fff;
+        width: 100%;
+        z-index: 100;
+       
+    }
+    .css-2o3va {
+        padding-top: 4px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 83.25em;
+        margin: 0 auto;
+    }
+    .css-e11zu {
+        width: 85%;
+    }
+    #headerMenu {
+            height: 62px;
+            line-height: 62px;
+        }
+        .css-1deqp08 {
+        position: relative;
+        z-index: 5;
+        line-height: 62px;
+        display: flex;
+    }
+    .css-1bk0o9p svg {
+        vertical-align: middle;
+    }
+    svg:not(:root) {
+        overflow: hidden;
+    }
+    a:-webkit-any-link {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+    .css-1yqek2e {
+        width: 65%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .css-1yqek2e >ul{
+            margin: 0px 0px;
+    }
+    ul.HeaderNav {
+        display: inline-block;
+        vertical-align: middle;
+        height: 62px;
+        line-height: 62px;
+    }
+    
+    .css-f7ogli {
+        display: inline-block;
+        vertical-align: middle;
+        height: 62px;
+        line-height: 62px;
+        display: flex;
+        padding: 0 10px;
+    }
+    ul {
+        list-style: none;
+    }
+    li {
+            display: list-item;
+           
+        }
+        ul.HeaderNav li > a {
+            display: block;
+            font-size: 16px!important;
+            font-family: 'SourceSansPro-Semibold', sans-serif;
+            font-weight: 600;
+            text-transform: uppercase;
+            color: #03021a;
+            margin: 0 auto;
+        }
+        .css-38r9y0 {
+            display: block;
+            font-size: 15px;
+            font-weight: 500;
+            text-transform: uppercase;
+            color: #03021a;
+            margin: 0 auto;
+        }
+        .css-1q0ywzx {
+            width: 25%;
+            height: 40px;
+            display: inline-block;
+        }
+        .css-17yggf0 {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background-color: #ffffff;
+            position: sticky;
+            top: 0;
+            height: 60px;
+            z-index: 1;
+        }
+        .css-1tntkx4 {
+            border: 1px solid rgba(151,151,151,0.1);
+            width: 100%;
+            padding: 0 2%;
+            display: flex;
+            height: 40px;
+            line-height: 40px;
+            background: rgba(151,151,151,0.1);
+            transition: width 0.5s ease-in-out;
+            position: relative;
+            z-index: 10;
+            border-radius: 4px;
+        }
+        .css-12yctey {
+            border: none;
+            background: transparent;
+            position: absolute;
+            border: none;
+            background: transparent;
+            top: 7px;
+            align-items: center;
+        }
+        button, select {
+            text-transform: none;
+        }
+        ::marker{
+           color: white;
+        }
+
+        button, input {
+            overflow: visible;
+        }
+        button, input, optgroup, select, textarea {
+            font-family: inherit;
+            font-size: 100%;
+            line-height: 1.15;
+            margin: 0px;
+        }
+        .css-19j7d8y {
+            padding: 0 18px 0 35px;
+            align-items: center;
+            width: 100%;
+        }
+        form {
+            display: block;
+            margin-top: 0em;
+        }
+        .css-19j7d8y ::placeholder { 
+            color:black;
+            font-family: "Source Sans Pro", Roboto, Arial, sans-serif;
+            
+            }
+        input {
+        text-rendering: auto;
+        letter-spacing: normal;
+        word-spacing: normal;
+        line-height: normal;
+        text-transform: none;
+        text-indent: 0px;
+        text-shadow: none;
+        display: inline-block;
+        text-align: start;
+        appearance: auto;
+        cursor: text;
+        background-color: -internal-light-dark(rgb(255, 255, 255), rgb(59, 59, 59));
+        margin: 0em;
+        padding: 1px 2px;
+        border-width: 2px;
+        border-style: inset;
+        border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+        border-image: initial;
+        }
+        textarea:focus, input:focus{
+            outline: none;
+        }textarea:focus, input:focus{
+            outline: none;
+        }
+        .css-1p0hsio {
+        border: none;
+        background: #f4f4f4;
+        width: 100%;
+    }
+    .css-1tny7j1 {
+        display: flex;
+        align-items: center;
+        margin-left: 45px;
+    }
+    .css-dwg5hz {
+        position: relative;
+        display: flex;
+        margin-right: 20px;
+        padding-bottom: 8px;
+        padding-top: 8px;
+        align-items: center;
+    }
+    .css-cud8se {
+        background: transparent;
+        border: none;
+        display: flex;
+        align-content: center;
+    }
+
+    svg:not(:root) {
+        overflow: hidden;
+    }
+    .css-17ukzrr {
+        position: relative;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: inline-block;
+        max-width: 76px;
+        vertical-align: bottom;
+        cursor: pointer;
+    }
+    .css-1ibpxb7 {
+        border: none;
+        position: relative;
+        margin-left: 10px;
+        background: rgba(255,255,255,0.5);
+        cursor: pointer;
+    }
+    /* starting of last block */
+    
+.BrandsCategoryHeading .brandHeadingbox:nth-child(3){
+display:none
+}
+.BrandsCategoryHeading .brandHeadingbox{
+width:25% !important
+}
+.subMegaMenu_main > ul > li{
+padding:0 1.3% !important
+}
+.subMegaMenu_main > ul > li:first-child{
+padding:0 1.3% 0 0 !important
+}
+a#OfferBlock {
+display:inline-block;
+vertical-align:middle;
+background: url(https://www.nykaa.com/media/wysiwyg/2018/SVGIMAGES/nykaa-man-desk-sprite-img.svg) no-repeat !important;
+background-position: -257px -16px !important; /* for offers*/
+/*background-position: -257px -51px !important;*/  /*for sale*/
+}
+#popups {
+display:none !important;
+}
+#beauty_advice {
+display:none !important;
+}
+a.Offers_Hover:hover {
+border-bottom: none !important;
+}
+span.close_srch {
+position: absolute;
+top: 2px;
+right: 6px;
+}
+.logo-nykaa-new, .aviance, .batiste, .braun, .crazy-color, .elenblu, .foreseessentials, .freedom, .givenchy, .giorgio-armani, .inglot, .invisi-bobble, .islandkiss, .kama-ayurveda, .kiehls, .l-a-girl, .laroche, .lakme, .lancome, .loccitane, .loreal, .mib, .mua, .makeup-revolution, .maybelline, .nyx, .neutrogena, .note, .plum, .roots, .sallyhansen, .schwarzkopf, .sugar, .toninguy, .the-man-company, .ysl, .ayush, .bharatndorris, .dermalogica, .kaya, .nivea, .yvesrocher, .twitter, .nykaa-lux-new20, .fb, .instagram, .pint, .yt, .shopping, .shoppingpink, .shopping-bag, .location, .rplace, .user, .userred, .bucketsubscription, .rbucket, .beauty, .gift-card, .orders, .rorder, .black-wishlist, .wishlist, .my-choices-h, .my-choices, .mychoice, .pink-wishlist, .reward, .rhistory, .dropdown-top, .logout, .lyk, .pro-review, .qa, .rfnd, .rlogout, .rqa, .rstar, .listpink, .bk, .nxt, .lotus-herbals, .vichy, .bio-oil, .tresemme, .nykaa-brand, .wella-professionals, .beardo, .lottie-london, .matrix, .olay-brand, .vlcc-branc, .user-img, .loyal-user-img, .block-content li .account_edit, .block-content li .reviews, .block-content li .aw_pq2, .block-content li .rewardpoints, .block-content li .referral, .block-content li .address_book, .avene, .biotique, .ciatelondon, .colorbar1, .galaoflondon, .novemberbloom, .osmo, .paperself, .palmers, .stives, .anatomicals, .deborah, .loreal-pro, .ogx, .soulflower, .ustraa, .zucilogo, .search-hover-pink, .loyalty_info {
+display: inline-block;
+background-image: url(http:/skin/frontend/nykaa/men/desktop/images/nh-sprite03.png) !important;
+background-repeat: no-repeat !important;
+overflow: hidden;
+text-indent: -9999px;
+text-align: left;
+}
+.maybelline {
+background-position: -4px -1399px;
+width: 118px;
+height: 55px;
+}
+.lakme {
+background-position: -4px -986px;
+width: 118px;
+height: 55px;
+}
+.loreal {
+background-position: -4px -1163px;
+width: 118px;
+height: 55px;
+}
+.nivea {
+background-position: -4px -2343px;
+width: 118px;
+height: 55px;
+}
+.makeup-revolution {
+background-position: -4px -1340px;
+width: 118px;
+height: 55px;
+}
+.foreseessentials {
+background-position: -4px -337px;
+width: 118px;
+height: 55px;
+}
+.colorbar1 {
+background-position: -127px -763px;
+}
+.neutrogena {
+background-position: -4px -1517px;
+width: 118px;
+height: 55px;
+}
+.braun {
+background-position: -4px -160px;
+width: 118px;
+height: 55px;
+}
+.bio-oil {
+background-position: -128px -92px;
+width: 118px;
+height: 55px;
+}
+.tresemme {
+background-position: -128px -148px;
+width: 118px;
+height: 34px;
+}
+.schwarzkopf {
+background-position: -4px -1812px;
+width: 118px;
+height: 55px;
+}
+.kiehls {
+background-position: -4px -809px;
+width: 118px;
+height: 55px;
+}
+.batiste {
+background-position: -4px -101px;
+width: 118px;
+height: 55px;
+}
+.wella-professionals {
+background-position: -128px -226px;
+width: 118px;
+height: 55px;
+}
+.beardo {
+background-position: -128px -282px;
+width: 118px;
+height: 55px;
+}
+.ciatelondon {
+background-position: -127px -708px;
+}
+.inglot {
+background-position: -4px -573px;
+width: 118px;
+height: 55px;
+}
+.mua {
+background-position: -4px -1281px;
+width: 118px;
+height: 55px;
+}
+.deborah {
+background-position: -127px -1148px;
+width: 118px;
+height: 55px;
+}
+.kama-ayurveda {
+background-position: -4px -750px;
+width: 118px;
+height: 55px;
+}
+.loccitane {
+background-position: -4px -1104px;
+width: 118px;
+height: 55px;
+}
+.avene {
+background-position: -127px -598px;
+width: 118px;
+height: 55px;
+}
+.neutrogena {
+background-position: -4px -1517px;
+width: 118px;
+height: 55px;
+}
+.loreal-pro {
+background-position: -127px -1203px;
+width: 118px;
+height: 55px;
+}
+.ogx {
+background-position: -127px -1258px;
+width: 118px;
+height: 55px;
+}
+.matrix {
+background-position: -128px -389px;
+width: 118px;
+height: 45px;
+}
+.biotique {
+background-position: -127px -653px;
+width: 118px;
+height: 45px;
+}
+.palmers {
+background-position: -127px -1038px;
+width: 118px;
+height: 45px;
+}
+.olay-brand {
+background-position: -128px -433px;
+width: 118px;
+height: 49px;
+}
+.brandsNameInner {
+position: relative;
+}
+.new-brd-tag-header {
+position: absolute !important;
+float: none !important;
+display: inline-block;
+background-color: #00a651;
+margin: 6px 0 0 8px !important;
+padding: 1px 3px !important;
+right: 0;
+top: 0;
+height: 16px ;
+line-height: 16px;
+color: #ffffff !important;
+width: 68px !important;
+font-size: 11px !important;
+}
+.excl-brd-tag-header {
+background-color: #42C0FB;
+color: #fff;
+display: inline-block;
+right: 0;
+top: 50%;
+font-size: 12px;
+margin-top: -8px;
+margin-right: 45px;
+height: 17px;
+text-align: center;
+width: 70px;
+padding: 2px;
+position: absolute;
+}
+input.SearchInputBox {
+width: 78% !important;
+margin-right:10%;
+}
+input.expandInput {
+width: 84% !important;
+margin-right: 8%;
+}
+#HeaderMenu .HeaderNav>li {
+line-height: 62px;
+}
+.subMegaMenu_main .MegaDropdownHeading .MegaDropdownHeadingbox > a.current_active, .subMegaMenu_main .MegaDropdownHeading .MegaDropdownHeadingbox:hover > a {
+font-weight: 600;
+border-bottom: 3px solid #066b8c;
+color: #066b8c !important;
+}
+#HeaderMenu .HeaderNav #beauty_advice .hideArr {
+padding-top: 0;
+}
+#HeaderMenu {
+width: 100%;
+max-width: 71.25em;
+margin: 0 auto;
+height: 62px;
+line-height: 62px;
+}
+@-moz-document url-prefix() {
+.MegaDropdown-ContentHeading, .LuxeHeadingBox{
+font-weight:500;
+}
+}
+.Main-Container{
+top:-16px !important;
+}
+.megaDropdown ul li {
+position: relative;
+}
+.new-prod {
+background-color: #00a651;
+margin: 0 0 0 8px;
+padding: 2px 4px;
+position: absolute;
+right: 0;
+top: 0;
+}
+.megaDropdown ul > li .new-prod a {
+color: #ffffff !important;
+font-size: 12px !important;
+height: 12px !important;
+line-height: 12px !important;
+}
+.luxe-div div{
+width: 13.82% !important;
+}
+.lux-color a{
+color:#eb7487 !important;
+}
+.z-hrsub h4{
+color:#000 !important;
+}
+#nykaa-lux-new {
+padding: 1em 0 1em 18px;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+.z-hrmenu > ul > li > a {
+padding:1em 12px !important;
+}
+#nykaa-lux-new{
+padding:1em 6px 1em 12px !important;
+}
+}
+.z-hrmenu>ul>li>a{
+font-size:15px;
+padding:1em 17px
+}
+/* .z-hrmenu .z-hrsub-inner>div a{
+font-size:15px
+}
+*/
+#P1_A11{
+color:#ff0080
+}
+.jewell-menu:hover a {
+color:black !important
+}
+.z-hrmenu>ul>#offer-menu{
+text-align:right;
+width: 86px;
+}
+@-moz-document url-prefix() {
+.z-hrmenu>ul>li>a {
+padding: 1em 9px;
+}
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+.z-hrmenu>ul>li>a {
+padding: 1em 12px;
+}
+}
+#BagItems p{
+font-family: 'SourceSansPro-Semibold', sans-serif;
+font-weight: 600;
+}
+.MegaDropdown-ContentHeading {
+color: rgba(3, 2, 26, 0.8) !important;
+}
+.subMegaMenu_main .MegaDropdownHeading .MegaDropdownHeadingbox:last-child{
+width:12% !important;
+}
+.subMegaMenu_main .MegaDropdownHeading .MegaDropdownHeadingbox:last-child:hover a#OfferBlock {
+border-bottom-color: transparent;
+}
+.HeaderNav ul li a:hover{
+cursor:pointer;
+}
+.new-brd-tag-header {
+position: absolute !important;
+float: none !important;
+display: inline-block;
+background-color: #00a651;
+margin: 6px 0 0 8px !important;
+padding: 1px 3px !important;
+right: 0;
+top: 0;
+height: 16px ;
+line-height: 16px;
+color: #ffffff !important;
+width: 68px !important;
+font-size: 11px !important;
+}
+.popUpsHeading1 {
+position: relative;
+z-index: 10002 !important;
+}
+.megaMenu_main .BrandsCategoryHeading a{
+color: rgba(3, 2, 26, 0.8);
+}
+.megaMenu_main .BrandsCategoryHeading a:hover {
+background:#066b8c;
+color: #ffffff !important;
+}
+ul.HeaderNav li > a:hover, a.BeautyAdviceBox:hover .beautyadviceHeading, a.BeautyAdviceBox:hover .beautyadviceDescription, .megaMenu_main li:hover > a, .hoverCls {
+color: #066b8c !important;
+}
+.MegaDropdown-ContentInner:first-child, .MegaDropdowntopWrapper .LuxeSubmenuWrapperbox1:first-child .LuxeMegaDropdown-ContentInner {
+border-bottom-left-radius: 3px;
+}
+.MegaDropdown-ContentInner:last-child, .LuxeMegaDropdown-ContentInner:last-child {
+border-bottom-right-radius: 3px;
+}
+.popUpsContentBox {
+height: 366px !important;
+}
+.MegaDropdownbottomWrapper{
+display:none !important;
+}
+/*CODE FOR CONTACT US PAGE*/
+/*THIS ISSUE IS ONLY ON PREPORD2 AND NOT ON LIVE SITE*/
+
+/*CODE FOR CONTACT US PAGE ENDS HERE*/
+.menu-for-web .z-hrmenu .z-hrsub-inner > div{
+float: left;
+margin: 0 5px 0 0;
+width: 16%;
+}
+.beauty-main{
+margin:0;
+padding:1%;
+}
+.beauty-d{
+float: left !important;
+margin: 0 5px 0 0 !important;
+width: 13.8% !important;
+}
+.beauty-d h4{
+text-transform:capitalize !important;
+}
+.beauty-d h4 a{
+text-transform:capitalize !important;
+color:#000 !important;
+font-size:1em !important;
+line-height:1.9em;
+font-weight:bold !important;
+}
+.beauty-d h4 a:hover{
+color:#066b8c !important;
+}
+.beauty-d ul li{
+width:88%;
+position:relative;
+line-height:1.9em !important;
+margin:0;
+}
+.beauty-d ul li a{
+font-size:1em !important;
+text-transform:capitalize !important;
+color:#000 !important;
+}
+.beauty-d ul li a:hover{
+color:#066b8c !important;
+}
+.only-other-part .beautyadvicemenu ul li a{
+font-weight:normal;
+display: block;
+font-size:15px;
+text-transform:capitalize
+}
+.b-img img{
+width:100%
+}
+.brandhsearchform{
+position: absolute;
+right: 7%;
+top: 1%;
+}
+.brandhsearchform a img{
+width:50%;
+}
+.user-img {
+background-position:50% 0 !important;
+width: 100% !important;
+}
+.has-sub-menu .menu-links{
+margin-bottom:0 !important
+}
+#listicon{
+background:none !important;
+}
+#brandcat1{
+display:block;
+}
+.only-other-part ul li a{
+text-transform: uppercase;
+}
+.shopping-bag{
+margin:-3px 17px 0 8px !important;
+}
+#luxury-menu{
+margin:0 0 0 1px;
+}
+.beauty-d .l2menutitle{
+text-align:center !important;
+}
+#shopspan {
+left:16px;
+padding: 0;
+position: absolute;
+top:0;
+font-size:14px;
+cursor:pointer;
+}
+#shopspan:hover{
+color:#066b8c;
+}
+.offerpng {
+margin-top: 6px;
+vertical-align: sub;
+width: 72px;
+}
+.arrow_box{
+left: 53px;
+position: absolute;
+top: 34px;
+}
+.menu-for-web .z-hrmenu .z-hrsub-inner > div {
+float: left;
+margin: 0 5px 0 0;
+width: 16%;
+}
+.beauty-main {
+margin: 0;
+padding: 1%;
+}
+.beauty-d {
+float: left !important;
+margin: 0 5px 0 0 !important;
+width: 13.8% !important;
+}
+.beauty-d h4 {
+text-transform: capitalize !important;
+}
+.beauty-d h4 a {
+text-transform: capitalize !important;
+color: #000 !important;
+font-size: 1em !important;
+line-height: 1.9em;
+font-weight: bold !important;
+}
+.beauty-d h4 a:hover {
+color: #066b8c !important;
+}
+.beauty-d ul li {
+width: 88%;
+position: relative;
+line-height: 1.9em !important;
+margin: 0;
+text-align: center !important;
+}
+.border-right-none{
+border-right:none !important;
+}
+.beauty-d ul li a {
+font-size: 1em !important;
+text-transform: capitalize !important;
+color: #000 !important;
+}
+.beauty-d ul li a:hover {
+color: #066b8c !important;
+}
+.beauty-main ul li {
+width: 25%;
+position: relative;
+margin:1% 0 ;
+padding:0 1% 1%;
+}
+.z-hrsub-inner ul li .b-img {
+width: 100% !important;
+float: none !important;
+margin-bottom: 10px;
+/* border-radius */
+-webkit-border-radius:7px;
+-moz-border-radius: 7px;
+border-radius:7px;
+/* box-shadow */
+-webkit-box-shadow: rgba(0,0,0,0.2) 0px 0 6px;
+-moz-box-shadow: rgba(0,0,0,0.2) 0 0 6px;
+box-shadow: rgba(0,0,0,0.2) 0 0 6px;
+}
+/*.low-text a {
+margin: 6% 0 0 0;
+text-transform: capitalize !important;
+}
+*/
+.beauty-main ul li .text-b {
+width: 100% !important;
+margin: 0 !important;
+text-transform: uppercase;
+text-align: left
+}
+.beauty-main ul li .text-b:hover{
+color:#066b8c;
+}
+.low-text{
+text-align: left
+}
+.beauty-main ul li .text-b div {
+text-transform: capitalize;
+}
+.beauty-main ul li .text-b b {
+font-weight: bold;
+font-size: 13px;
+line-height: 24px;
+}
+.beauty-main ul li .text-b:hover {
+color: #066b8c;
+}
+.libeautyheader {
+width: 22% !important;
+}
+.brandhsearchform {
+position: absolute;
+right: 7%;
+top: 1%;
+}
+.brandhsearchform a img {
+width: 50%;
+}
+.user-img {
+background-position: 50% 0 !important;
+width: 100% !important;
+}
+#listicon {
+background: none !important;
+}
+#brandcat1 {
+display: block;
+}
+.shopping-bag {
+margin: -3px 17px 0 8px !important;
+}
+#luxury-menu {
+margin: 0 0 0 1px;
+}
+.beauty-d .l2menutitle {
+text-align: center !important;
+}
+#shopspan {
+left: 16px;
+padding: 0;
+position: absolute;
+top: 0;
+font-size: 14px;
+cursor: pointer;
+}
+#shopspan:hover {
+color: #066b8c;
+}
+.offerpng {
+margin-top: 6px;
+vertical-align: sub;
+width: 72px;
+}
+.arrow_box {
+left: 53px;
+position: absolute;
+top: 34px;
+}
+.offersc{
+margin-left: 15px !important;
+}
+html {
+-webkit-font-smoothing: antialiased;
+}
+body{
+text-rendering: optimizeLegibility;
+-moz-osx-font-smoothing: grayscale;
+-webkit-font-smoothing: antialiased;
+}
+.bodyShadow{
+opacity: 0.6;
+background-color: #000000;
+height: 100%;
+left: 0;
+display: none;
+position: fixed;
+top: 0;
+width: 100%;
+z-index: 10000;
+}
+@font-face {
+font-family: 'SourceSansPro-Regular';
+src: url('/media/fonts/SourceSansPro/SourceSansPro-Regular.eot');
+src: url('/media/fonts/SourceSansPro/SourceSansPro-Regular.eot?#iefix') format('embedded-opentype'), url('/media/fonts/SourceSansPro/SourceSansPro-Regular.otf') format('opentype'), url('/media/fonts/SourceSansPro/SourceSansPro-Regular.woff') format('woff'), url('/media/fonts/SourceSansPro/SourceSansPro-Regular.ttf') format('truetype'), url('/media/fonts/SourceSansPro/SourceSansPro-Regular.svg#SourceSansPro-Regular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'SourceSansPro-Semibold';
+src: url('/media/fonts/SourceSansPro/SourceSansPro-Semibold.eot');
+src: url('/media/fonts/SourceSansPro/SourceSansPro-Semibold.eot?#iefix') format('embedded-opentype'), url('/media/fonts/SourceSansPro/SourceSansPro-Semibold.otf') format('opentype'), url('/media/fonts/SourceSansPro/SourceSansPro-Semibold.woff') format('woff'), url('/media/fonts/SourceSansPro/SourceSansPro-Semibold.ttf') format('truetype'), url('/media/fonts/SourceSansPro/SourceSansPro-Semibold.svg#SourceSansPro-Semibold') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+font-family: 'Montserrat';
+src: url('/media/fonts/Montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'), url('/media/fonts/Montserrat/Montserrat-Regular.otf') format('opentype'), url('/media/fonts/Montserrat/Montserrat-Regular.woff') format('woff'), url('/media/fonts/Montserrat/Montserrat-Regular.ttf') format('truetype'), url('/media/fonts/Montserrat/Montserrat-Regular.svg#Montserrat-Regular') format('svg');
+font-weight: normal;
+font-style: normal;
+}
+.top-trips-bg {
+background-color: #003243 !important;
+height: 40px !important;
+background-size: cover !important;
+}
+.excl-brd-tag-header {
+background-color: #42C0FB;
+color: #fff;
+display: inline-block;
+right: 0;
+top: 50%;
+font-size: 12px;
+margin-top: -8px !important;
+margin-right: 45px;
+height: 17px;
+line-height: 14px;
+text-align: center;
+width: 70px;
+padding: 2px;
+position: absolute;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+/* Safari only override */
+::i-block-chrome,.arrBox_h,.arrowBox{
+bottom:21px !important;
+}
+}
+.top_strip_wrapper{
+max-width:1140px;
+height: 40px;
+margin: 0 auto;
+display: flex;
+}
+/*simple scrollbar css starts here*/
+.ss-wrapper {
+overflow: hidden;
+width: 100%;
+height: 100%;
+position: relative;
+z-index: 1;
+float: left;
+left:-18px;
+}
+.ss-content {
+height: 100%;
+width: 100%;
+padding: 0 32px 0 0;
+position: relative;
+right: -18px;
+overflow-y: auto;
+overflow-x: hidden;
+box-sizing: border-box;
+}
+.ss-scroll {
+position: relative;
+background: rgba(0, 0, 0, 0.1);
+width: 9px;
+border-radius: 4px;
+top: 0;
+z-index: 2;
+cursor: pointer;
+opacity: 0;
+transition: opacity 0.25s linear;
+}
+.ss-hidden {
+display: none;
+}
+.ss-container:hover .ss-scroll {
+opacity: 1;
+}
+.ss-grabbed {
+-o-user-select: none;
+-ms-user-select: none;
+-moz-user-select: none;
+-webkit-user-select: none;
+user-select: none;
+}
+/*top strip css start here*/
+#offer-banner{
+display: block;
+/*background: url("https://adn-static2.nykaa.com/media/wysiwyg/2020/DesktopTopStrip_man1365X40.jpg") center no-repeat !important;
+*/
+background-size: cover !important;
+height: 40px;
+line-height: 40px;
+padding: 0;
+position: relative;
+z-index: 10002 !important;
+}
+.spacer_line {
+display: inline-block;
+width: 1px !important;
+padding: 0 !important;
+height: 20px;
+margin-right: 3%;
+vertical-align: 10px;
+line-height: 20px;
+background: rgba(255, 255, 255, 0.77);
+}
+#offerheaderul {
+height: 40px;
+}
+.beauty-profile-img{
+background:url(/media/wysiwyg/HeaderIcons/menusprite.png) -1px 8px no-repeat;
+height:40px;
+width:18px;
+float:left;
+margin:0 5px 0 0;
+}
+.rightDiv ul li a:hover .beauty-profile-img{
+background:url(/media/wysiwyg/HeaderIcons/menusprite.png) -41px 10px no-repeat;
+}
+.giftcard-profile{
+background: url(https://www.nykaa.com/media/wysiwyg/2018/SVGIMAGES/nykaa-man-desk-sprite-img.svg) no-repeat;
+background-position:-144px -16px;
+width: 19px;
+height: 19px;
+margin-top: 11px;
+float: left;
+}
+.rightDiv ul li a:hover .giftcard-profile{
+background: url(https://www.nykaa.com/media/wysiwyg/2018/SVGIMAGES/nykaa-man-desk-sprite-img.svg) no-repeat;
+background-position: -119px -16px;
+width: 19px;
+height: 19px;
+margin-top: 11px;
+}
+.contact-us-img {
+background: url(https://www.nykaa.com/media/wysiwyg/2018/SVGIMAGES/nykaa-man-desk-sprite-img.svg) no-repeat;
+/* background-position: -43px -38px;
+*/
+background-position: -74px -38px;
+width: 19px;
+height: 19px;
+margin-top: 10px;
+float:left;
+margin-right:5px;
+}
+.rightDiv ul li a:hover .contact-us-img{
+background:url(https://www.nykaa.com/media/wysiwyg/2018/SVGIMAGES/nykaa-man-desk-sprite-img.svg) no-repeat ;
+background-position: -74px -38px;
+/*PINK ICON*/
+/*background:url(https://www.nykaa.com/media/wysiwyg/HeaderIcons/menusprite.png) no-repeat -61px 10px;
+*/
+/*WHITE ICON*/
+/*background:url(https://www.nykaa.com/media/wysiwyg/HeaderIcons/menusprite.png) no-repeat -101px 10px;
+*/
+/*BLACK ICON*/
+}
+.rightDiv ul li a:hover span{
+color: #1e6b7b;
+}
+.rightDiv {
+padding: 0;
+width: 30%;
+height: 40px;
+line-height: 40px;
+text-align: right;
+}
+.rightDiv ul li{
+display: inline-block;
+width: auto;
+padding: 0 3%;
+height: 40px;
+line-height: 40px;
+}
+.rightDiv ul li a{
+width: 100%;
+display: inline-block;
+text-decoration: none;
+color: #fff;
+cursor: pointer;
+}
+.rightDiv ul li a span{
+font-size: 14px;
+float: left;
+font-family: 'SourceSansPro-Regular', sans-serif;
+font-weight: 400;
+}
+.right-icons {
+width: 100%;
+height: 40px;
+}
+.leftDiv {
+vertical-align: middle;
+width: 70%;
+height: 40px;
+margin-bottom: 0 !important;
+font-weight: bold;
+overflow: hidden;
+position:relative;
+}
+.leftDiv a {
+color: #fff; text-decoration: none;
+}
+.leftDiv a:hover {
+color: #1e6b7b;
+}
+/*top strip css end here*/
+/*simple scrollbar css ends here*/
+img {
+max-width: 100%;
+width: auto\9;
+height: auto;
+vertical-align: middle;
+border: 0;
+-ms-interpolation-mode: bicubic;
+}
+#HeaderWrapper{
+background:#fff;
+width:100%;
+position: relative;
+z-index: 16000004;
+}
+#HeaderMenu{
+width:100%;
+max-width:80.25em;
+margin:0 auto;
+height: 62px;
+line-height: 62px;
+}
+#HeaderMenu .menuContainer_main ul.HeaderNav {
+display: inline-block;
+vertical-align: middle;
+height: 62px;
+line-height: 62px;
+}
+#NykaaLogo{
+background: transparent;
+display: inline-block;
+vertical-align: middle;
+height: 55px;
+line-height: 40px;
+width: 8.5%;
+}
+#headerMenu {
+height: 62px;
+line-height: 62px;
+}
+ul.HeaderNav {
+display: inline-block;
+vertical-align: middle;
+height: 62px;
+line-height: 62px;
+}
+ul.HeaderNav li > a{
+display: block;
+font-size: 16px!important;
+font-family: 'SourceSansPro-Semibold', sans-serif;
+font-weight: 600;
+text-transform: uppercase;
+color: #03021a;
+margin: 0 auto;
+}
+ul.HeaderNav li > a.active{
+color: #066b8c!important;
+}
+form#HomeSearchbar {
+border: 1px solid rgba(151, 151, 151, 0.1);
+width: 250px;
+padding: 0 2%;
+display: inline-block;
+height: 40px;
+line-height: 40px;
+background: rgba(151, 151, 151, 0.1);
+border-radius: 4px;
+position: relative;
+margin: auto;
+z-index: 8;
+transition:width ease-in-out 0.5s;
+-moz-transition:width ease-in-out 0.5s;
+-webkit-transition:width ease-in-out 0.5s;
+}
+.expandSearch{
+width:395px !important;
+border:1px solid #066b8c !important;
+}
+.SearchBoxContainer {
+position: relative;
+width: 23%;
+height: 40px;
+line-height: 40px;
+display: inline-block;
+vertical-align: middle;
+}
+.SearchIcon{
+background: url(/media/wysiwyg/HeaderIcons/menusprite.png) -65px -36px no-repeat;
+display: inline-block;
+height: 20px;
+line-height: 20px;
+width: 25px;
+vertical-align: text-top;
+position: absolute;
+top: 8px;
+left: 5px;
+}
+.SearchBox {
+display: inline-block;
+vertical-align: top;
+width: auto;
+background: #f4f4f4;
+position: absolute;
+left: 35px;
+right: 0;
+top: 0;
+bottom: 0;
+}
+input#SearchInputBox {
+border: none;
+background: #f4f4f4;
+width: 100%;
+padding:0;
+font: 11px system-ui;
+}
+#SearchInputBox ::-webkit-input-placeholder {
+/* Chrome/Opera/Safari */
+color: #888888;
+}
+#SearchInputBox ::-moz-placeholder {
+/* Firefox 19+ */
+color: #888888;
+}
+#SearchInputBox :-ms-input-placeholder {
+/* IE 10+ */
+color: #888888;
+}
+#SearchInputBox :-moz-placeholder {
+/* Firefox 18- */
+color: #888888;
+}
+.pullRight{
+float: right;
+width: 12%;
+}
+.UserAccount {
+display: inline-block;
+width:43%;
+margin-left: 8%;
+position: relative;
+z-index: 1;
+vertical-align: middle;
+height: 40px;
+line-height: 40px;
+margin-right: 0.4em;
+text-align: left;
+cursor: pointer;
+}
+.UserIcon {
+background: url(/media/wysiwyg/HeaderIcons/menusprite.png) 3px -42px no-repeat;
+display: inline-block;
+height: 20px;
+line-height: 20px;
+width: 22px;
+vertical-align: middle;
+margin-right: 0;
+}
+.AccountText{
+font-family: 'SourceSansPro-Regular';
+font-weight: 400;
+color: #03021a;
+font-size: 14px;
+}
+.AddToBagbox {
+display: inline-block;
+width: 12.87%;
+position: relative;
+height: 40px;
+line-height: 40px;
+vertical-align: middle;
+}
+.AddBagIcon{
+background: url(/media/wysiwyg/HeaderIcons/menusprite.png) -39px -31px no-repeat;
+display: inline-block;
+width: 22px;
+height: 26px;
+line-height: 26px;
+vertical-align: text-top;
+cursor: pointer;
+}
+.BagItems {
+background-color: #066b8c;
+border-radius: 10px;
+height: 21px;
+margin: 2px 0 0 -6px;
+position: absolute;
+width: 21px;
+left: 90%;
+bottom: 48%;
+line-height: 0px;
+text-align: center;
+}
+.BagItemsNo {
+margin: 10px auto;
+font-size: 12px;
+color: #fff;
+}
+div.sprite {
+display: inline-block;
+width: 100px;
+height: 100px;
+}
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– megamenu.js STYLE STARTS HERE –––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* –––––––––––––––––––––––––––––––––––––––––––––––––– Screen style's –––––––––––––––––––––––––––––––––––––––––––––––––– */
+.Addbdr{
+border-bottom:1px solid #e6dede;
+width:100%;
+position: relative;
+z-index: 16000003;
+}
+.addSubmenu-Shadow{
+width:100%;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+position: relative;
+z-index: 16000003;
+top:-1px;
+height:1px;
+pointer-events: none;
+}
+@-moz-document url-prefix() {
+.addSubmenu-Shadow {
+box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+-webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+}
+ul.HeaderNav li > a, .MegaDropdown-ContentHeading, .btmOffers {
+font-weight: 400;
+}
+}
+.arrowBox, .arrow-up {
+width: 15px;
+height: 13px;
+position: relative;
+margin: 0 auto;
+bottom: 22px;
+visibility: visible;
+z-index: 888;
+}
+.arrow-up{
+width: 15px;
+height: 13px;
+position: relative;
+margin: 0 auto;
+bottom: 22px;
+z-index: 1002;
+}
+.arrBox_h {
+width: 15px;
+height: 14px;
+position: relative;
+margin: 0 auto;
+bottom: 22px;
+z-index: 1002;
+visibility: hidden;
+}
+.arr_pos{
+left:-12%;
+}
+.arrBox_hShow{
+visibility: visible !important;
+}
+.arrowBox:after, .arrowBox:before, .arrBox_h:after, .arrow-up:after, .arrow-up:before, .arrBox_h:before {
+content: "";
+border-style: solid;
+border-width: 10px;
+width: 0;
+height: 0;
+position: absolute;
+}
+.arrowBox:after, .arrBox_h:after, .arrow-up:after {
+margin-top: 1px;
+border-color: transparent transparent #fff;
+}
+.arrowBox:before, .arrBox_h:before, .arrow-up:before {
+border-color: transparent transparent #e6dede;
+}
+.menuContainer_main {
+width: 50%;
+display: inline-block;
+}
+.menuMobile_main {
+display: none;
+padding: 20px;
+}
+.menuMobile_main:after {
+content: "\f394";
+font-family: "Ionicons";
+font-size: 2.5rem;
+padding: 0;
+float: right;
+position: relative;
+top: 50%;
+-webkit-transform: translateY(-25%);
+-ms-transform: translateY(-25%);
+transform: translateY(-25%);
+}
+
+.megaMenu_main > ul:before, .megaMenu_main > ul:after {
+content: "";
+display: table;
+}
+.megaMenu_main > ul:after {
+clear: both;
+}
+.megaMenu_main > ul > li {
+display:inline-block;
+cursor: pointer;
+padding:0 14px !important;
+}
+#headerMenu> ul > li {
+float: left;
+height: 60px;
+}
+.megaMenu_main > ul > li:hover .megaMenu_main > ul > li > a + div.arrowBox {
+visibility: hidden;
+}
+.megaMenu_main > ul > li > ul {
+display: none;
+width: 1140px;
+background: #ffffff;
+padding: 20px 0 0;
+position: absolute;
+z-index:10002;
+left: 50%;
+transform: translateX(-50%);
+margin:-15px 0 0 0;
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+overflow: hidden;
+}
+.megaMenu_main ul li.menu-dropdown-icon:hover ul{
+display: block;
+}
+.HeaderNav > li:hover .arrBox_h{
+visibility: visible;
+}
+@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {
+/* IE10+ specific styles go here */
+.megaMenu_main > ul > li > ul{
+margin:-14.5px 0 0;
+}
+}
+/*microsoft edge*/
+@supports (-ms-accelerator:true) {
+.megaMenu_main > ul > li > ul{
+margin:-14.5px 0 0;
+}
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+/* Safari only override */
+::i-block-chrome,.megaMenu_main > ul > li > ul{
+margin:-13px 0 0;
+}
+}
+.megaMenu_main > ul > li > ul:before, .megaMenu_main > ul > li > ul:after {
+content: "";
+display: table;
+}
+.megaMenu_main > ul > li > ul:after {
+clear: both;
+}
+.megaMenu_main > ul > li > ul > li {
+margin: 0;
+padding-bottom: 0;
+list-style: none;
+width: 100%;
+background: none;
+float: left;
+}
+
+.megaMenu_main > ul > li > ul > li > ul {
+display: block;
+padding: 0;
+margin: 10px 0 0;
+list-style: none;
+box-sizing: border-box;
+}
+.megaMenu_main > ul > li > ul > li > ul:before, .megaMenu_main > ul > li > ul > li > ul:after {
+content: "";
+display: table;
+}
+.megaMenu_main > ul > li > ul > li > ul:after {
+clear: both;
+}
+.megaMenu_main > ul > li > ul > li > ul > li {
+float: left;
+width: 100%;
+padding: 10px 0;
+margin: 0;
+font-size: .8em;
+}
+.megaMenu_main > ul > li > ul > li > ul > li a {
+border: 0;
+}
+.megaMenu_main > ul > li > ul.normal-sub {
+width: 1140px;
+padding: 0;
+}
+.megaMenu_main > ul > li > ul.normal-sub > li {
+width: 100%;
+}
+
+.allBrandsBox{
+width:360px;
+float:left;
+background:#fff;
+height:510px;
+border-bottom-left-radius: 3px;
+}
+.brandsCategoryBox{
+width:68.4%;
+float:right;
+background: #f3f3f3;
+height: 510px;
+border-bottom-right-radius: 3px;
+}
+input#brandSearchBox[type=text] {
+padding: 0 0 0 5px;
+border: none;
+text-transform: capitalize;
+display: inline-block;
+vertical-align: middle;
+height: 34px;
+line-height: 34px;
+width: 268px;
+position: absolute;
+right: 10px;
+top: 0;
+bottom: 0;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+/* Safari only override */
+::i-block-chrome,input#brandSearchBox[type=text]{
+line-height: 15px;
+}
+}
+.brandSearchWrapper{
+padding:20px;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+-moz-box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.1);
+-webkit-box-shadow:0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.brandSearchMain{
+width: 320px;
+height: 36px;
+line-height: 36px;
+padding: 0 10px;
+border-radius: 2px;
+border: solid 1px rgba(151, 151, 151, 0.4);
+position: relative;
+}
+.brandsNameboxWrapper{
+width: 295px;
+float:left;
+height:445px
+}
+.brandsNamebox{
+
+width: 295px;
+margin-left:18px
+}
+.brandsNamebox a.brandsNameCollection {
+line-height: 30px;
+display: block;
+}
+.brandsSorting a{
+display: block;
+color: rgba(3, 2, 26, 0.6);
+}
+.topbrandsHeading{
+font-family: 'SourceSansPro-Semibold', sans-serif;
+font-weight: 600;
+font-size: 14px;
+color: rgba(3, 2, 26, 0.6);
+text-transform: uppercase;
+margin-left:18px;
+height: 60px;
+}
+.addShadowBrand{
+height: 1px;
+opacity: 0.2;
+-webkit-filter: blur(1px);
+filter: blur(1px);
+background-image: radial-gradient(circle at 43% -126%, #000000, rgba(0, 0, 0, 0));
+background-image:-webkit-radial-gradient(center, ellipse cover, rgba(0, 0, 0, 5) -49%, transparent 126%, transparent 100%);
+margin-bottom: 10px;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+/* Safari only override */
+::i-block-chrome,.addShadowBrand{
+height: 2px;
+}
+}
+.brandsSorting{
+font-family: 'SourceSansPro-Semibold', sans-serif;
+font-weight: 600;
+text-transform: uppercase;
+font-size: 12px;
+letter-spacing: 0.9px;
+text-align: center;
+color: rgba(3, 2, 26, 0.6);
+width:35px;
+display:inline-block;
+margin:3% auto;
+}
+.brandsSorting a {
+line-height: 11px;
+padding: 2px 0;
+}
+.brandsNameCollection{
+font-family: 'SourceSansPro-Regular', sans-serif;
+font-weight: 400;
+font-size: 14px;
+color: rgba(3, 2, 26, 0.6);
+}
+.BrandsCategoryHeading {
+margin: 2% auto 1%;
+text-align: center;
+}
+.BrandsnameWrapper {
+margin: 0 auto;
+text-align: center;
+}
+.BrandsCategoryHeading .brandHeadingbox{
+width:134px;
+height: 36px;
+line-height: 36px;
+font-family: 'SourceSansPro-Semibold', sans-serif;
+font-weight: 600;
+font-size: 14px;
+text-align: center;
+color: rgba(3, 2, 26, 0.8);
+text-transform: uppercase;
+background-color: #d8d8d8;
+display: inline-block;
+margin: 0 8px;
+}
+.BrandsCategoryHeading .current_active, .brandHeadingbox:hover{
+background-color:#066b8c;
+color:#ffffff !important;
+}
+.Brand-Content{
+display:none;
+}
+#brandCont_Popular{
+display: block;
+}
+.brandLogoBox{
+width:165px;
+height: 70px;
+display: inline-block !important;
+vertical-align: middle;
+margin: 0 0 4% 4%;
+}
+a.brandLogoBox:nth-child(4n+1) {
+margin: 0 0 4% 0;
+}
+/*Brands Dropdown ends here*/
+/*Beauty Advice Dropdown starts here*/
+.BeautyAdviceboxWrapper{
+padding:30px;
+height: 481px;
+text-align: justify;
+-ms-text-justify: distribute-all-lines;
+text-justify: distribute-all-lines;
+}
+.BeautyAdviceboxWrapper:after{
+content: '';
+width: 100%;
+display: inline-block;
+}
+a.BeautyAdviceBox img{
+width: 240px;
+height: 150px;
+box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+-moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+-webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.22);
+border-radius: 6px;
+-moz-border-radius:6px;
+-webkit-border-radius:6px;
+margin-bottom: 10px;
+-webkit-transition: all ease-in-out 0.2s;
+-moz-transition: all ease-in-out 0.2s;
+transition: all ease-in-out 0.2s;
+}
+a.BeautyAdviceBox{
+width:240px;
+height: auto;
+display: inline-block;
+vertical-align: top;
+margin-bottom:30px;
+}
+a.BeautyAdviceBox .beautyadviceHeading{
+font-family: 'SourceSansPro-Semibold', sans-serif;
+font-weight: 600;
+font-size: 14px;
+color: rgba(3, 2, 26, 0.8);
+text-transform: uppercase;
+height: 18px;
+line-height: 18px;
+}
+a.BeautyAdviceBox .beautyadviceDescription{
+font-family: 'SourceSansPro-Regular', sans-serif;
+font-weight: 400;
+font-size: 14px;
+color: rgba(4, 1, 20, 0.6);
+text-transform: capitalize;
+height: 18px;
+line-height: 18px;
+}
+a.BeautyAdviceBox:hover img{
+box-shadow: 0px 0px 0px 2px #066b8c;
+-moz-box-shadow: 0px 0px 0px 2px #066b8c;
+-webkit-box-shadow: 0px 0px 0px 2px #066b8c;
+}
+ul.HeaderNav li > a:hover, a.BeautyAdviceBox:hover .beautyadviceHeading, a.BeautyAdviceBox:hover .beautyadviceDescription, .megaMenu_main a:hover, .hoverCls{
+color:#066b8c;
+}
+.hoverCls{
+color:#066b8c !important;
+}
+a.Offers_Hover:hover{
+border-bottom: none !important;
+}
+a.Offers_Hover:hover .bodyShadow{
+display: none !important;
+}
+/*Beauty Advice Dropdown ends here*/
+/*Popup Store Starts here*/
+section.popUpsbox {
+margin-top: -20px;
+}
+.MegaDropdownHeading {
+margin: 0 auto;
+text-align: center;
+background:#fff;
+height: 50px;
+line-height: 47px;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+position: relative;
+}
+.popUpsHeading1{
+position: relative;
+z-index: 10002 !important;
+}
+.MegaDropdownHeading .MegaDropdownHeadingbox{
+font-family: 'SourceSansPro-Regular', sans-serif;
+font-weight: 400;
+font-size: 14px;
+color: rgba(3, 2, 26, 0.6);
+text-transform: capitalize;
+display:inline-block;
+vertical-align: middle;
+border-bottom: 3px solid transparent;
+width:145px;
+}
+.MegaDropdownHeading .current_active{
+font-weight: 600;
+border-bottom:3px solid #066b8c;
+color:#066b8c;
+}
+.MegaDropdown-ContentHeading{
+height: 18px;
+line-height: 18px;
+font-family: 'SourceSansPro-Semibold', sans-serif;
+font-weight: 600;
+font-size: 14px;
+text-transform: uppercase;
+}
+.MegaDropdown-ContentHeading a{
+color: rgba(3, 2, 26, 0.8);
+}
+.MegaDropdown-ContentInner .MegaDropdown-ContentHeading.addMargintop{
+margin-top:30px;
+}
+.MegaDropdown-ContentInner .MegaDropdown-ContentHeading.addMarginbottom{
+margin-bottom:10px;
+}
+.MegaDropdown-ContentInner:last-child {
+border-left: solid 1px rgba(151, 151, 151, 0.20);
+}
+.popUpsContentBox{
+height: 466px;
+position: relative;
+z-index: 7;
+box-shadow: 0px -1px 1px 0 rgba(0, 0, 0, 0.1)
+}
+.MegaDropdownbottomWrapper{
+position: relative;
+z-index: 999;
+box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+-moz-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+-webkit-box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.1);
+margin-top:1px;
+height:100px;
+width:100%;
+background:#fff;
+border-bottom-left-radius: 3px;
+border-bottom-right-radius: 3px;
+}
+.MegaDropdown-ContentInner{
+width:190px;
+height:260px;
+float:left;
+padding:12px;
+text-align: left;
+}
+.MegaDropdowntopWrapper:after{
+content:'';
+clear: both;
+display: block;
+}
+.bgWhite{
+background-color:#fff;
+}
+.bgGrey{
+background-color:#f7f7f7;
+}
+.popUps-Content{
+display:none;
+}
+#GlamnFitStore{
+display: block;
+}
+.megaDropdown ul > li a{
+font-size: 14px;
+line-height: 18px;
+margin: 2% auto;
+display: block;
+color: rgba(3, 2, 26, 0.5);
+font-family: 'SourceSansPro-Regular', sans-serif;
+font-weight: 400;
+text-transform: capitalize;
+}
+.megaDropdown > ul{
+padding: 0;
+list-style: none;
+}
+.btmOffers{
+width: 380px;
+height: 100px;
+padding: 10px 30px;
+font-family: 'SourceSansPro-Semibold', sans-serif;
+font-weight: 600;
+font-size: 14px;
+float:left;
+text-align: justify;
+-ms-text-justify: distribute-all-lines;
+text-justify: distribute-all-lines;
+border-right: 2px solid rgba(151, 151, 151, 0.2);
+}
+.btmOffers:after {
+content: '';
+width: 100%;
+display: inline-block;
+}
+.btmOffers:last-child{
+border-right:none;
+}
+.btmOffers .Offerimg{
+width:25.16%;
+display: inline-block;
+vertical-align: top;
+}
+.btmOffers .OfferContent{
+text-align: left;
+display: inline-block;
+height: 80px;
+width:70%;
+position:relative;
+}
+.btmOffers .Offer-det{
+color: #03021a;
+line-height: 20px;
+}
+.btmOffers .shopOffer-link{
+color: #066b8c;
+text-transform: uppercase;
+/* vertical-align: text-bottom; */
+width: 100px;
+display: block;
+height: 26px;
+line-height: 26px;
+position: absolute;
+bottom:2px;
+}
+.btmOffers .shopOffer-link a{
+vertical-align: middle;
+color: #066b8c;
+}
+.btmOffers .shopOffer-arrow{
+display: inline-block;
+width: auto;
+height: 26px;
+line-height: 26px;
+margin-left: 5px;
+vertical-align: middle;
+}
+.btmOffers .shopOffer-arrow img {
+width: 75%;
+position: absolute;
+}
+/*Popup Store Ends here*/
+/*subMegaMenu_main css starts here*/
+.subMegaMenu_main .MegaDropdownHeading .current_active:last-child{
+border-bottom: none !important;
+}
+.subMegaMenu_main .MegaDropdownHeading {
+box-shadow: none !important;
+width: 100%;
+max-width: 80.25em;
+margin: 0 auto;
+padding: 0;
+}
+.subMegaMenu_main{
+position: relative;
+z-index: 16000003;
+background:#fff;
+width: 100%;
+}
+.subMegaMenu_main > ul > li > ul {
+margin: 0;
+padding:0;
+}
+.subMegaMenu_main .MegaDropdownHeading {
+box-shadow:none !important;
+}
+.subMegaMenu_main .MegaDropdownHeading .MegaDropdownHeadingbox {
+width: auto;
+padding: 0;
+margin: 0;
+float: left;
+}
+.subMegaMenu_main .MegaDropdownHeading .MegaDropdownHeadingbox:hover > ul{
+display: block;
+}
+.subMegaMenu_main .MegaDropdownHeading .MegaDropdownHeadingbox > a {
+display: block;
+padding: 0;
+position: relative;
+z-index: 10003;
+border-bottom: 3px solid transparent;
+color: rgba(3, 2, 26, 0.6);
+}
+.subMegaMenu_main .MegaDropdownHeading .MegaDropdownHeadingbox > a.current_active,.subMegaMenu_main .MegaDropdownHeading .MegaDropdownHeadingbox > a:hover{
+font-weight: 600;
+border-bottom:3px solid #066b8c;
+color:#066b8c;
+}
+.subMegaMenu_main .MegaDropdownHeading .MegaDropdownHeadingbox:last-child {
+width: 7.59%;
+position: absolute;
+right:0;
+padding:0;
+top: 10px !important;
+}
+.subMegaMenu_main .MegaDropdownHeading .MegaDropdownHeadingbox a:last-child {
+padding: 0;
+}
+/*subMegaMenu_main css ends here*/
+/*Luxe mega menu css starts here*/
+.MegaDropdownHeading .MegaDropdownHeadingbox.Luxe_menufont{
+font-family: 'Montserrat';
+font-weight: 500;
+}
+.LuxeSubmenuWrapperbox1{
+width:486px;
+float:left;
+}
+.LuxeSubmenuWrapperbox2{
+width: 324px;
+float:left;
+}
+.LuxeSubmenuWrapperbox3{
+width: 162px;
+float:left;
+}
+.LuxeSubmenuWrapperbox4{
+width: 162px;
+float:right;
+}
+.LuxeSubmenuWrapperbox1:after, .LuxeSubmenuWrapperbox2:after, .LuxeSubmenuWrapperbox3:after, .LuxeSubmenuWrapperbox4:after{
+content:'';
+clear: both;
+display: block;
+}
+.LuxeMegaDropdown-ContentInner .MegaDropdown-ContentHeading.addMargintop, .LuxeHeadingBox.addMargintop{
+margin-top:30px;
+}
+.LuxeMegaDropdown-ContentInner .MegaDropdown-ContentHeading.addMarginbottom, .LuxeHeadingBox.addMarginbottom{
+margin-bottom:10px;
+}
+.LuxeMegaDropdown-ContentInner{
+width:162px;
+height:441px;
+float:left;
+padding:12px 0;
+text-align: left;
+position: relative;
+z-index: 7;
+}
+.LuxeMegaDropdown-ContentInner .megaDropdown{
+padding:0 12px;
+}
+.LuxeHeadingBox{
+background-color: rgba(255, 255, 255, 0.8);
+font-family: 'SourceSansPro-Semibold', sans-serif;
+font-weight: 600;
+font-size: 14px;
+height: 50px;
+text-align: center;
+color: rgba(3, 2, 26, 0.8);
+text-transform: uppercase;
+position: relative;
+z-index: 88;
+}
+.LuxeHeadingBox a{
+color: rgba(3, 2, 26, 0.8);
+}
+.LuxeHeadingBox:after {
+background-image: radial-gradient(circle at 49% -126%, #000000, rgba(0, 0, 0, 0));
+background-image:-webkit-radial-gradient(center, ellipse contain, rgba(0, 0, 0, 5) -49%, transparent 126%, transparent 100%);
+background-image: -moz-radial-gradient(circle at 49% -126%, #000000, rgba(0, 0, 0, 0));
+height: 5px;
+width: 95%;
+content: '';
+display: block;
+opacity: 0.1;
+-webkit-filter: blur(1px);
+filter: blur(1px);
+}
+/*Luxe mega menu css ends here*/
+/*brand css start here*/
+.l-vertical-list{
+margin: 0;
+padding: 0;
+}
+.BrandsnameWrapper ul li.brand-logo {
+width: 165px !important;
+height: 35px;
+display: inline-block;
+vertical-align: middle;
+margin: 0 auto 4%;
+}
+.menu-links {
+padding: 3px 0;
+}
+/*brand css end here */
+.left-message{
+animation: slide 10s infinite;
+}
+.leftDiv div:nth-child(2) {
+animation-delay: 5s;
+opacity: 0;
+}
+@keyframes slide {
+0% {
+transform: translateY(40px);
+opacity: 1;
+}
+5%, 50%{
+transform: translateY(0);
+opacity: 1;
+}
+51% {
+transform: translateY(-40px);
+opacity: 0;
+}
+51.1%, 100% {
+transform: translateY(40px);
+opacity: 0;
+}
+}
+.UserIcon.loyalty_icon {
+background: url(/skin/frontend/nykaa/men/desktop/images/nykaa_men.svg) -377px -239px no-repeat;
+}
+.colorbar1 {
+background-position: -127px -763px;
+width: 118px;
+height: 55px;
+}
+.ciatelondon {
+background-position: -127px -708px;
+width: 118px;
+height: 55px;
+}
+
+/*Mega menu style start*/
+.nmmenuwrap{
+border-top: #dfdfdf solid 1px;
+border-bottom: 1px solid #dfdfdf;
+background: #fff;
+}
+.menu-container {
+width: 100%;
+margin: 0 auto 0;
+background: #fff;
+max-width: 1140px;
+text-align: left;
+}
+.menu-mobile {
+display: none;
+padding: 20px;
+}
+.menu-mobile:after {
+content: "\f394";
+font-family: "Ionicons";
+font-size: 2.5rem;
+padding: 0;
+float: right;
+position: relative;
+top: 50%;
+-webkit-transform: translateY(-25%);
+-ms-transform: translateY(-25%);
+transform: translateY(-25%);
+}
+.menu-dropdown-icon:before {
+content: "\f489";
+font-family: "Ionicons";
+display: none;
+cursor: pointer;
+float: right;
+padding: 1.5em 2em;
+background: #fff;
+color: #333;
+}
+.menu > ul {
+margin: 0 auto;
+width: 100%;
+list-style: none;
+padding: 0;
+position: relative;
+box-sizing: border-box;
+}
+.menu > ul:before, .menu > ul:after {
+content: "";
+display: table;
+}
+.menu > ul:after {
+clear: both;
+}
+.menu > ul > li {
+display: inline-block;
+vertical-align: middle;
+padding: 0;
+margin: 0;
+}
+.menu > ul > li:last-child a{
+width: 88px;
+background: url(https://www.nykaa.com/media/wysiwyg/2018/SVGIMAGES/nykaa-man-desk-sprite-img.svg) no-repeat;
+/* background-position: -257px -14px;
+*/
+background-position: -257px -51px;
+/*For Sale*/
+border-bottom: 0
+}
+.menu > ul > li:last-child a:hover{
+border-bottom: none
+}
+.menu > ul > li a {
+text-decoration: none;
+padding: 13px 1em;
+color: #000;
+display: block;
+font-size: 14px;
+border-bottom: 3px solid #fff;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.menu > ul > li:hover a{
+border-color: #066b8c;
+}
+.menu > ul > li a.L3_Standalone{
+text-transform: uppercase;
+font-weight: bold;
+color: #3e3f51;
+}
+.menu > ul > li > ul {
+display: none;
+width: 100%;
+background: #fff;
+padding: 0;
+position: absolute;
+z-index: 99;
+left: 0;
+margin: 0;
+list-style: none;
+box-sizing: border-box;
+}
+.menu > ul > li > ul:before, .menu > ul > li > ul:after {
+content: "";
+display: table;
+}
+.menu > ul > li > ul:after {
+clear: both;
+}
+.menu > ul > li > ul > li {
+margin: 0;
+padding: 0;
+list-style: none;
+width: 14.29%;
+background: none;
+float: left;
+}
+.submenu > li:nth-child(2n+2){
+background: #f7f7f7
+}
+.normal-sub.submenu > li:nth-child(2n+2){
+background: none
+}
+.menu > ul > li > ul.submenu > li{
+display: table-cell;
+float: none
+}
+.menu > ul > li > ul.normal-sub.submenu > li{
+float: left
+}
+.menu > ul > li > ul.submenu > li{
+padding: 12px;
+}
+.menu > ul > li > ul.normal-sub.submenu > li{
+padding: 0;
+}
+.menu > ul > li > ul > li a {
+padding: .2em 0;
+width: 100%;
+display: block;
+border-bottom: none;
+text-transform: uppercase;
+font-weight: 600
+}
+.menu > ul > li > ul > li a:hover, .menu > ul > li a:hover {
+color: #1e6b7b
+}
+.menu > ul > li > ul > li > ul {
+display: block;
+padding: 0;
+margin: 0;
+list-style: none;
+box-sizing: border-box;
+}
+.menu > ul > li > ul > li > ul:before, .menu > ul > li > ul > li > ul:after {
+content: "";
+display: table;
+}
+.menu > ul > li > ul > li > ul:after {
+clear: both;
+}
+.menu > ul > li > ul > li > ul > li {
+float: left;
+width: 100%;
+padding: 0;
+margin: 0;
+font-size: .8em;
+}
+.menu > ul > li > ul.normal-sub {
+width: 225px;
+left: 0;
+padding: 10px 14px;
+text-align: left;
+}
+.menu > ul > li > ul.normal-sub > li {
+width: 100%;
+margin-bottom: 3px;
+}
+.menu > ul > li > ul.normal-sub > li a {
+border: 0;
+padding: 7px 0;
+text-transform: uppercase;
+}
+.menu > ul > li > ul > li a:hover{
+border: none
+}
+.menu > ul > li > ul > li a{
+color: #3e3f51;
+}
+.menu > ul > li > ul > li > ul > li a{
+color: #797985;
+padding:7px 0;
+text-transform: capitalize;
+border: 0;
+font-weight: normal
+}
+.menu > ul > li > ul > li > ul > li a:hover{
+color: #3e3f51
+}
+/*tab wise css*/
+#BeardCar{
+left:6.6%;
+width: 800px;
+}
+#haircareul{
+left:6em;
+width: 800px;
+}
+#skincareul{
+left: 11.5em;
+width:800px;
+}
+#gadgetsul {
+left:47em;
+}
+#lifestyleul {
+max-width: 1124px;
+}
+#personalcareul, #wellnessul{
+left: 10em;
+width: 800px;
+}
+#petcareul{
+left: 15em;
+width: 800px;
+}
+#shaving_ul{
+left: 0;
+width: 800px;
+}
+#personalcareul .menu > ul > li > ul > li, #wellnessul .menu > ul > li > ul > li, #shaving_ul .menu > ul > li > ul > li, #haircareul .menu > ul > li > ul > li, #BeardCar .menu > ul > li > ul > li, #skincareul .menu > ul > li > ul > li, #SportsNutrition .menu > ul > li > ul > li, #petcareul .menu > ul > li > ul > li, #lifestyleul .menu > ul > li > ul > li {
+width: 33%
+}
+#perfumedeosul{
+left: 25em
+}
+#SportsNutrition{
+left: 0em;
+width: 1100px;
+}
+#wellnessul, #giftingul, #luxeul{
+left: auto
+}
+.menu > ul > li:hover .submenu{
+display: block
+}
+#headerMenu .logo svg {
+width: 100%;
+}
+/*Mega Menu style end*/
+
+@media only screen and (max-width: 1200px) {
+.menu > ul > li a {
+padding: 13px 8px;
+}
+#HeaderMenu .HeaderNav>li {
+font-size: 14px;
+padding: 0 10px;
+}
+}
+
+@media only screen and (max-width: 992px) {
+.menu > ul > li a {
+padding: 13px 6px;
+}
+#HeaderMenu .HeaderNav>li {
+font-size: 14px;
+padding: 0 10px;
+}
+}
+
+@media only screen and (max-width: 768px) {
+.menu > ul > li a {
+padding: 13px 4px;
+}
+#HeaderMenu .HeaderNav>li {
+font-size: 14px;
+padding: 0 5px;
+}
+}
+#lastblock{
+  position: relative;
+  top:106px;
+  z-index:10;
+}      

@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Address page</title>
+    <link
+      rel="icon"
+      href="//www.nykaaman.com/skin/frontend/nykaa/men/desktop/images/favicon.png"
+      type=""
+    />
+    <style>
+      #nav {
+        position: sticky;
+        top: 0px;
+        width: 100%;
+        height: 80px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+          rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        margin-bottom: 40px;
+        display: flex;
+      }
+      #nav_container > div:nth-child(2) {
+        border-bottom: 3px solid #003243;
+      }
+
+      #nav_container {
+        display: flex;
+        width: 40%;
+        height: 100%;
+        margin-left: 270px;
+      }
+      #nav_container > div {
+        flex: 3;
+        border: 0;
+        border-left: 1px solid rgb(233, 219, 219);
+        border-right: 1px solid rgb(233, 219, 219);
+        color: rgb(0, 50, 67);
+        font-weight: bolder;
+        height: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        padding-top: 30px;
+        align-items: center;
+      }
+      #main {
+        display: flex;
+        width: 87%;
+        margin: auto;
+        gap: 10px;
+      }
+      #addressTable {
+        flex: 3.5;
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+      }
+      #addresShow {
+        flex: 4.5;
+        border: 1px solid rgb(233, 219, 219);
+      }
+      #addresShow {
+        display: grid;
+        grid-template-columns: repeat(1, 100%);
+        padding: 2%;
+
+        /* box-sizing: border-box; */
+      }
+      #right {
+        flex: 3.5;
+        border: 1px solid rgb(233, 219, 219);
+        padding: 20px;
+        box-sizing: border-box;
+      }
+      #card2 {
+        width: 95%;
+        gap: 8px;
+        margin: auto;
+        display: flex;
+        height: 120px;
+        gap: 20px;
+        border: 1px solid rgb(218, 213, 213);
+      }
+      #div1 {
+        flex: 3;
+      }
+      #div2 {
+        flex: 7;
+      }
+      #smallimg {
+        width: 100%;
+        height: 100%;
+      }
+      form {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      form > div {
+        width: 90%;
+        margin: auto;
+      }
+
+      div > input {
+        width: 100%;
+        margin: auto;
+        height: 40px;
+        border: 0;
+        box-sizing: border-box;
+        border-bottom: 1px solid rgb(233, 219, 219);
+        outline: none;
+        padding-top: 20px;
+      }
+      div > textarea {
+        outline: none;
+        border: 1px solid rgb(233, 219, 219);
+      }
+      #savebtn {
+        background-color: #003243;
+        color: white;
+        padding: 0%;
+        width: 100%;
+        height: 50px;
+        border: 0;
+        border-radius: 4px;
+      }
+
+      label {
+        position: relative;
+        top: -40px;
+        color: rgb(163, 161, 161);
+        transition: 0.3s;
+      }
+      input:focus + label {
+        position: relative;
+        top: -60px;
+        color: black;
+      }
+      #checkbox {
+        width: 20px;
+        height: 20px;
+      }
+      #checkbox label {
+        margin-top: 30px;
+      }
+      #addressTable > div {
+        width: 90%;
+        background-color: #ffff;
+        color: rgb(0, 50, 67);
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        height: 50px;
+        font-weight: bolder;
+        box-sizing: border-box;
+        padding: 15px;
+        font-size: 18px;
+      }
+      #addressTable > div:focus {
+        border-right: 2px solid rgb(0, 50, 67);
+      }
+      #card {
+        /* border: 1px solid rgb(212, 206, 206); */
+        /* margin: auto; */
+        /* padding: 10px; */
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      #btn {
+        margin-left: 370px;
+        margin-top: -40px;
+      }
+      #counter {
+        margin-left: 100px;
+      }
+
+      #card0 {
+        width: 100%;
+        height: 200px;
+        overflow: scroll;
+        display: grid;
+        grid-template-columns: repeat((1, 1fr));
+      }
+
+      #total > div {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        font-family: sans-serif;
+        font-size: 15px;
+      }
+      #email{
+      color:#8c8d94;
+        margin: 5px;
+      } 
+      
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="vadi">
+        <div id="nav">
+          <div id="logo">
+            <img
+              style="width: 70px; margin-left: 40px; margin-top: 15px"
+              src="https://www.nykaa.com/media/wysiwyg/2018/SVGIMAGES/nykaamanlogo.svg"
+              alt=""
+            />
+          </div>
+          <div id="nav_container">
+            <div onclick="window.location.href='login.html'" id="login">
+              1-LOGIN
+              <p id="email"></p>
+            </div>
+            <div onclick="window.location.href='address.html'" id="address">
+              2-ADDRESS
+              <div id="addr"></div>
+            </div>
+            <div onclick="window.location.href='payment.html'" id="payment">
+              3-PAYMENT
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+   
+    <div id="main">
+      <div id="addressTable">
+        <div tabindex="1" onclick="window.location.href='address.html'">
+          New Address
+        </div>
+        <div id="savedAddress" tabindex="1">
+          Saved Address <span id="counter">0</span>
+        </div>
+      </div>
+      <div id="addresShow">
+        <!-- <form action=""> -->
+        <div>
+          <h2>New Address</h2>
+        </div>
+
+        <div>
+          <input id="country" type="text" value="" placeholder="" required />
+          <label for="country">Select Country</label>
+        </div>
+        <div>
+          <input id="name" type="text" placeholder="" required />
+          <label for="name_id">Name</label>
+        </div>
+        <div>
+          <input id="phone" type="text" placeholder="" required />
+          <label for="phone_id">phone number</label>
+        </div>
+        <div>
+          <input id="postal" type="text" placeholder="" required />
+          <label for="posatl_id">Postal Code</label>
+        </div>
+        <div>
+          <textarea
+            name=""
+            id="address"
+            cols="54"
+            rows="5"
+            placeholder="Address"
+            required
+          ></textarea>
+        </div>
+        <div>
+          <input id="checkbox" type="checkbox" placeholder="" />
+          <span style="margin-left: 15px"
+            >Use this as my default Shipping Address</span
+          >
+        </div>
+        <br />
+        <div>
+          <button id="savebtn" onclick="saveAddress()">
+            SHIP TO THIS ADDRESS
+          </button>
+        </div>
+
+        <!-- </form> -->
+      </div>
+      <br />
+      <div id="right">
+        <div id="h3div"></div>
+
+        <div id="card0"></div>
+        <br />
+
+        <div id="total">
+          <div>
+            <div>SubTotal</div>
+            <div class="total"></div>
+          </div>
+          <div>
+            <div>ShippingCharge</div>
+            <div>free</div>
+          </div>
+          <div>
+            <div>Discount</div>
+            <div>0</div>
+          </div>
+          <div>
+            <div>Use Reward Points (2000)</div>
+            <div>Apply</div>
+          </div>
+          <div>
+            <div>Grand Total</div>
+            <div class="grandtotal"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script>
+  let email=document.querySelector("#email")
+  let user=JSON.parse(localStorage.getItem("userdata"))
+  email.innerHTML=user.email
+
+
+  let token = localStorage.getItem("token");
+  var data;
+  var flag = false;
+  let c = document.querySelector("#counter");
+  let saveAddress = async () => {
+    try {
+      let address = {
+        country: document.querySelector("#country").value,
+        name: document.querySelector("#name").value,
+        phone: document.querySelector("#phone").value,
+        postal: document.querySelector("#postal").value,
+        address: document.querySelector("textarea").value,
+      };
+      address = JSON.stringify(address);
+      let res = await fetch("https://nykaaman-clone.herokuapp.com/addresses", {
+        method: "POST",
+        body: address,
+        headers: {
+          Authorization: `Bearer ${token}`,
+          "Content-Type": "application/json",
+        },
+      });
+
+      let dat = await res.json();
+      console.log(dat);
+      getData();
+      window.location.href="payment.html"
+    } catch (error) {
+      console.log(error);
+    }
+  };
+
+  //get data of address
+
+  let getData = async () => {
+    try {
+      data = await fetch("https://nykaaman-clone.herokuapp.com/addresses", {
+        method: "GET",
+
+        headers: {
+          Authorization: `Bearer ${token}`,
+          "Content-Type": "application/json",
+        },
+      });
+
+      data = await data.json();
+      console.log(data);
+      c.innerHTML = data.length;
+      if (flag == true) {
+        appendData(data);
+        flag = false;
+      }
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  getData();
+
+  let saved = document.querySelector("#savedAddress");
+  saved.addEventListener("click", () => {
+    getData();
+    c.innerHTML = data.length;
+    console.log(data);
+    appendData(data);
+  });
+
+  function appendData(data) {
+    var parent = document.querySelector("#addresShow");
+    parent.innerHTML = "";
+    data.map((el, index) => {
+      //let parent = document.querySelector("#addresShow");
+
+      let card = document.createElement("div");
+      card.id = "card";
+
+      let name = document.createElement("h3");
+      name.innerHTML = el.name;
+      let del = document.createElement("button");
+      del.innerHTML = "Delete";
+      del.id = "btn";
+      del.addEventListener("click", async () => {
+        console.log(el);
+        try {
+          console.log(el);
+          let dat = await fetch(`https://nykaaman-clone.herokuapp.com/addresses/${el._id}`, {
+            method: "DELETE",
+
+            headers: {
+              Authorization: `Bearer ${token}`,
+              "Content-Type": "application/json",
+            },
+          });
+          flag = true;
+          getData();
+        } catch (error) {
+          console.log(error);
+        }
+        appendData(data);
+        c.innerHTML = data.length;
+      });
+
+      let para = document.createElement("p");
+      para.innerHTML = el.address;
+      let phone = document.createElement("h3");
+      phone.innerHTML = el.phone;
+      let input = document.createElement("input");
+      input.type = "submit";
+      input.value = "SHIP TO THIS ADDRESS";
+      input.style.backgroundColor = "#003243";
+      input.style.color = "white";
+      input.style.padding = "0px";
+      input.addEventListener("click", () => {
+        console.log(index);
+        localStorage.setItem("INDEX", index);
+        window.location.href = "payment.html";
+      });
+
+      card.append(name, del, para, phone, input);
+      parent.append(card);
+    });
+  }
+
+  //addto cart products showing
+ 
+    let bagdata;
+    const getDaata = async function(){
+ // let token = localStorage.getItem("token");
+   bagdata = await fetch("https://nykaaman-clone.herokuapp.com/carts",{
+    method:"GET",
+    headers:{
+      Authorization:`Bearer ${token}`,
+        "Content-Type":"application/json"
+    }
+  })
+   bagdata= await bagdata.json()
+  //  console.log(bagdata,"velu")
+    myFunction();
+}
+ 
+  getDaata()
+  
+
+
+  function myFunction() {
+    let right = document.querySelector("#right");
+
+
+    // let bagdata = JSON.parse(localStorage.getItem("finalproduct"));
+//     let bagdata=[
+//     {
+//     img_url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/n/y/nymcfcom00076_1new.jpg",
+//     title:"MCaffeine Complete Coffee Face-Body-Hair Pampering Kit",
+//     price:"200",discountcost:"Rs179.00",discount:"14%",value:"451",category:["body-kit"]
+// },
+// {
+//     img_url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/b/e/beaaa00000036_1_.png",
+//     title:"Beardo Ultraglow Lotion And Ultraglow Facewash Combo (Pack Of 2)(100ml+100gm)",
+//     price:"495",discountcost:"Rs299.00",discount:"20%",value:"452",category:["facewash"]
+// },
+// {
+//     img_url:"https://images-static.nykaa.com/media/catalog/product/tr:w-200,h-200,cm-pad_resize/4/4/44561e74902430442626.jpg",
+//     title:"Gillette Classic Sensitive Shave Foam - 418 g (33% extra)",
+//     price:"245",discountcost:"Rs209.00",discount:"20%",value:"453",category:["cream"]
+// }
+//   ]
+
+    console.log("he", bagdata);
+    let counter = bagdata.length;
+    let h3 = document.createElement("h3");
+    h3.innerHTML = `<span>${counter}</span> Items In Your Bag`;
+    h3.style.color = "rgb(254,176,74)";
+    h3.style.paddingLeft = "8px";
+    document.querySelector("#h3div").append(h3);
+    bagdata.map((ele) => {
+      let { img_url, title, price } = ele;
+      let card2 = document.createElement("div");
+      card2.id = "card2";
+
+      let div1 = document.createElement("div");
+      div1.id = "div1";
+      let div2 = document.createElement("div");
+      div2.id = "div2";
+
+      let img = document.createElement("img");
+      img.id = "smallimg";
+      img.src = img_url;
+
+      let p = document.createElement("p");
+      p.innerHTML = title;
+      p.style.borderBottom = "1px solid rgb(223, 213, 213)";
+
+      let h4 = document.createElement("h4");
+      h4.innerHTML = `₹${price}`;
+
+      div1.append(img);
+      div2.append(p, h4);
+      card2.append(div1, div2);
+      document.querySelector("#card0").append(card2);
+    });
+      let total = document.querySelector("#total");
+  counter = bagdata.length;
+  let head3 = document.createElement("h3");
+  head3.innerHTML = `<span>${counter}</span> Items In Your Bag`;
+  head3.style.color = "rgb(254,176,74)";
+  head3.style.paddingLeft = "8px";
+  var sum = 0;
+  for (var i = 0; i < bagdata.length; i++) {
+    let v = +bagdata[i].price;
+
+    sum = sum + v;
+  }
+
+  document.querySelector(".total").innerHTML = `₹${sum}`;
+  document.querySelector(".grandtotal").innerHTML = `₹${sum}`;
+  }
+  // myFunction();
+
+  ///////
+  // let data = JSON.parse(localStorage.getItem("addressDetails")) || [];
+  // let c = document.querySelector("#counter");
+  // c.innerHTML = data.length;
+
+  // let saved = document.querySelector("#savedAddress");
+  // saved.addEventListener("click", () => {
+  //   console.log(data);
+  //   appendData(data);
+  // });
+
+  // function appendData(data) {
+  //   let parent = document.querySelector("#addresShow");
+  //   parent.innerHTML = "";
+  //   data.map((el, index) => {
+  //     let parent = document.querySelector("#addresShow");
+
+  //     let card = document.createElement("div");
+  //     card.id = "card";
+
+  //     let name = document.createElement("h3");
+  //     name.innerHTML = el.Name;
+  //     let del = document.createElement("button");
+  //     del.innerHTML = "Delete";
+  //     del.id = "btn";
+  //     del.addEventListener("click", (index) => {
+  //       let removed = data.splice(index, 1);
+  //       localStorage.setItem("addressDetails", JSON.stringify(data));
+  //       appendData(data);
+  //       c.innerHTML = data.length;
+  //       console.log(data);
+  //       count = data.length;
+  //       // console.log(removed)
+  //     });
+
+  //     let para = document.createElement("p");
+  //     para.innerHTML = el.Address;
+  //     let phone = document.createElement("h3");
+  //     phone.innerHTML = el.Phone;
+  //     let input = document.createElement("input");
+  //     input.type = "submit";
+  //     input.value = "SHIP TO THIS ADDRESS";
+  //     input.style.backgroundColor = "#003243";
+  //     input.style.color = "white";
+  //     input.style.padding = "0px";
+  //     input.addEventListener("click", () => {
+  //       console.log(index)
+  //       localStorage.setItem("INDEX",index)
+  //       window.location.href = "payment.html";
+  //     });
+
+  //     card.append(name, del, para, phone, input);
+  //     parent.append(card);
+  //   });
+  // }
+
+  // let country = document.getElementById("country").value;
+
+  // let submitting = document.querySelector("form");
+  // submitting.addEventListener("submit", () => {
+  //   c.innerHTML = data.length;
+  //   // e.preventDefault();
+  //   let country = document.getElementById("country").value;
+  //   let name = document.getElementById("name").value;
+  //   let phone = document.getElementById("phone").value;
+  //   let postal = document.getElementById("postal").value;
+  //   let address = document.querySelector("textarea").value;
+
+  //   let obj = {
+  //     Name: name,
+  //     Phone: phone,
+  //     Postal: postal,
+  //     Address: address,
+  //   };
+  //   data.push(obj);
+  //   c.innerHTML = data.length;
+  //   localStorage.setItem("addressDetails", JSON.stringify(data));
+  // });
+  // function myFunction() {
+  //   let right = document.querySelector("#right");
+  //   let bagdata = JSON.parse(localStorage.getItem("finalproduct"));
+  //   console.log("he", bagdata);
+  //   let counter = bagdata.length;
+  //   let h3 = document.createElement("h3");
+  //   h3.innerHTML = `<span>${counter}</span> Items In Your Bag`;
+  //   h3.style.color = "rgb(254,176,74)";
+  //   h3.style.paddingLeft = "8px";
+  //   document.querySelector("#h3div").append(h3);
+  //   bagdata.map((ele) => {
+  //     let { img_url, title, price } = ele;
+  //     let card2 = document.createElement("div");
+  //     card2.id = "card2";
+
+  //     let div1 = document.createElement("div");
+  //     div1.id = "div1";
+  //     let div2 = document.createElement("div");
+  //     div2.id = "div2";
+
+  //     let img = document.createElement("img");
+  //     img.id = "smallimg";
+  //     img.src = img_url;
+
+  //     let p = document.createElement("p");
+  //     p.innerHTML = title;
+  //     p.style.borderBottom = "1px solid rgb(223, 213, 213)";
+
+  //     let h4 = document.createElement("h4");
+  //     h4.innerHTML = `₹${price}`;
+
+  //     div1.append(img);
+  //     div2.append(p, h4);
+  //     card2.append(div1, div2);
+  //     document.querySelector("#card0").append(card2);
+  //   });
+  // }
+  // myFunction();
+
+  // let bagdata = JSON.parse(localStorage.getItem("finalproduct"));
+  // let total = document.querySelector("#total");
+  // let counter = bagdata.length;
+  // let h3 = document.createElement("h3");
+  // h3.innerHTML = `<span>${counter}</span> Items In Your Bag`;
+  // h3.style.color = "rgb(254,176,74)";
+  // h3.style.paddingLeft = "8px";
+  // var sum = 0;
+  // for (var i = 0; i < bagdata.length; i++) {
+  //   let v = +bagdata[i].price;
+
+  //   sum = sum + v;
+  // }
+
+  // document.querySelector(".total").innerHTML = `₹${sum}`;
+  // document.querySelector(".grandtotal").innerHTML = `₹${sum}`;
+</script>

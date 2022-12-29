@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/336aa36eed.js" crossorigin="anonymous"></script>
+    <title>otp</title>
+    <style>
+         #loginOtpContainerDk{
+            background-color: #fffefe;
+            height: 650px;
+            width: 23%;
+            border: 1px solid lightgray;
+            margin: auto;
+            margin-top: 4%;
+            border-radius: 15px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+        #crossIconLoginOtpDk{
+            margin-left: 4%;
+            margin-top: 5%;
+            opacity: 0.8;
+            display: inline-block;
+        }
+        #logInHOtp_Dk{
+            font-size: 18px;
+            font-family: "Source Sans Pro", sans-serif;
+            font-weight: 600;
+            line-height: 28px;
+            display: inline-block;
+            margin-left: 30%;
+        }
+        #inputLoginOtpDk{
+            margin-left: 7%;
+            height: 43px;
+            width: 80%;
+            border: 0px;
+            outline: none;
+            border-bottom: 1px solid black;
+        }
+        #inputLoginDk::placeholder{
+            text-align: center;
+            font-family: "Source Sans Pro", sans-serif;
+        }
+        #inputLoginOtpContainer{
+            border: 1px solid transparent;
+            width: 90%;
+            height: 55px;
+            margin: auto;
+            margin-top: 5%;
+        }
+        #btnLoginOtpC{
+            border: 1px solid transparent;
+            width: 86%;
+            height: 60px;
+            margin: auto;
+        }
+        #btnLoginOtpVerify{
+            background-color: #003243;
+            color: white;
+            width: 100%;
+            height: 99%;
+            border-radius: 3px;
+            font-size: 14px;
+            font-family: "Source Sans Pro", sans-serif;
+            font-weight: 600;
+            line-height: 24px;
+            border: 0px;
+        }
+        #loginOtpParaDiv{
+            border: 1px solid transparent;
+            width: 80%;
+            height: 100px;
+            margin: auto;
+            margin-top: 5%;
+        }
+        #loginOtpPara{
+            text-align: center;
+            font-family: "Source Sans Pro", sans-serif;;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+        }
+    </style>
+</head>
+<body>
+    <div id="loginOtpContainerDk">
+        <i class="fas fa-times fa-2x" id="crossIconLoginOtpDk"></i>
+        <p id="logInHOtp_Dk">LOGIN</p>
+        <hr style="opacity: 0.5; margin-top: 0px; width: 90%;">
+
+        <div id="loginOtpParaDiv">
+            <p id="loginOtpPara">Welcome User,<br>
+                Please enter the OTP sent on your phone<br>
+                (Be sure to check your spam folder)</p>
+        </div>
+
+        <div id="inputLoginOtpContainer">
+            <input id="inputLoginOtpDk" type="number" placeholder="OTP">
+
+        </div>
+
+        <br><br>
+
+        <div id="btnLoginOtpC">
+            <button id="btnLoginOtpVerify">VERIFY</button>
+        </div>
+
+    </div>
+</body>
+</html>
+<script>
+
+document.getElementById("crossIconLoginOtpDk").addEventListener("click", () => {
+        window.location = "login.html";
+    })
+
+    let btn_verify = document.getElementById("btnLoginOtpVerify");
+
+    let user = JSON.parse(localStorage.getItem("userData"));
+    console.log(user);
+
+    btn_verify.addEventListener("click", () =>{
+        let input_otp = document.getElementById("inputLoginOtpDk").value;
+        if(input_otp.length !== 6) {
+        alert("Please enter 6 digit OTP")
+        } else {
+            console.log("hello")
+        window.location.href = "home.html";
+        }
+        });
+
+
+
+
+
+
+</script>

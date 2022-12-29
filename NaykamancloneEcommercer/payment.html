@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment</title>
+     <link
+      rel="icon"
+      href="//www.nykaaman.com/skin/frontend/nykaa/men/desktop/images/favicon.png"
+      type=""
+    />
+    <style>
+      #container {
+        width: 80%;
+        /* height: 400px; */
+        display: flex;
+        gap: 10px;
+        margin: auto;
+      }
+      #paymentMethod {
+        flex: 2.5;
+
+        background: #ffffff;
+
+        box-shadow: rgba(9, 30, 66, 0.25) 0px 0px 2px -2px,
+          rgba(9, 30, 66, 0.05) 0px 0px 0px 1px;
+      }
+      #nav_container>div:last-child{
+        border-bottom: 3px solid #003243;
+      }
+      #paymentMethod > div {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        font-family: sans-serif;
+
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -2px,
+          rgba(0, 0, 0, 0.01) 0px 2px 4px -1px;
+      }
+      #cardDetails {
+        flex: 4;
+        box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+        background: #ffffff;
+      }
+      #bagDetails {
+        flex: 2.5;
+        box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+      }
+      #credit,
+      #googlePay,
+      #UPI,
+      #cod,
+      #banks {
+        width: 80%;
+        margin: auto;
+      }
+      form {
+        width: 100%;
+        font-family: sans-serif;
+      }
+      input {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 20px;
+        outline: none;
+        margin: 10px;
+        margin-left: 0;
+      }
+      form > div > input {
+        border: 0;
+        border-bottom: 1px solid grey;
+      }
+      #submit {
+        background-color: #003243;
+        color: white;
+      }
+      #bank {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+      }
+      #bank > div {
+        border: 1px solid rgb(212, 206, 206);
+        text-align: center;
+        padding: 10px;
+        transition: 1s;
+      }
+      #bank > div:hover {
+        transform: scale(1.1);
+        /* z-index: 4; */
+      }
+       #nav {
+        width: 100%;
+        height: 80px;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+          rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        margin-bottom: 40px;
+        display: flex;
+      }
+
+      #nav_container {
+        display: flex;
+        width: 40%;
+        height: 100%;
+        /* margin: auto; */
+        margin-left:270px ;
+      }
+      #nav_container > div {
+        flex: 3;
+        border: 0;
+        border-left: 1px solid rgb(233, 219, 219);
+        border-right: 1px solid rgb(233, 219, 219);
+        color: rgb(0, 50, 67);
+        font-weight: bolder;
+        height: 100%;
+        box-sizing: border-box;
+        text-align: center;
+        padding-top: 30px;
+        align-items: center;
+      }
+     
+      #paymentMethod>div:focus{
+
+           border-right: 2px solid #003243;
+        font-weight: 700;
+
+      }
+      #nav_container>div:focus{
+        border-bottom: 3px solid #003243;
+      }
+      #bagDetails{
+        padding: 10px;
+        box-sizing: border-box;
+      }
+      #bagDetails>div{
+        border-bottom: 1px solid rgb(233, 219, 219);
+      }
+      /* #div2{
+        padding: 5px;
+      } */
+      #div2>div{
+        display: flex;
+        justify-content: space-between;
+        padding: 10px;
+        font-family: sans-serif;
+        font-size: 15px;
+      }
+      #div3{
+         font-family: sans-serif;
+         padding: 9px;
+         
+
+      }
+      #addressChange{
+        margin-left: 40px;
+      }
+          #choose{
+            font-size: 16px;
+    font-weight: 600;
+    margin-left: 155px;
+    font-family: sans-serif;
+    color:#3f414d;
+      }
+        #email{
+      color:#8c8d94;
+        margin: 5px;
+      } 
+     
+     
+    </style>
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="nav">
+        <div id="logo">
+          <img
+            style="width: 70px; margin-left: 40px; margin-top: 15px"
+            src="https://www.nykaa.com/media/wysiwyg/2018/SVGIMAGES/nykaamanlogo.svg"
+            alt=""
+          />
+        </div>
+        <div id="nav_container">
+          <div id="login" >1-LOGIN
+            <p id="email"></p>
+          </div>
+          <div onclick="window.location.href='address.html'" id="address" tabindex="1">2-ADDRESS</div>
+          <div onclick="window.location.href='payment.html'" id="payment" tabindex="1">3-PAYMENT</div>
+        </div>
+      </div>
+    </div>
+     <br>
+    <div id="choose">CHOOSE PAYMENT METHOD</div>
+    <br>
+    <div id="container">
+      <div id="paymentMethod">
+        <div class="select" tabindex="1" >Credit/Debit Card</div>
+        <div class="select" tabindex="1">UPI</div>
+        <div class="select" tabindex="1">Google Pay</div>
+        <div class="select" tabindex="1">Net Banking</div>
+        <div class="select" tabindex="1">Cash On Delivery</div>
+        <div class="select" tabindex="1">Gift Card</div>
+      </div>
+      <div id="cardDetails">
+        <div id="credit">
+          <form action="">
+            <div>
+              <h4>Credit/Debit Card</h4>
+            </div>
+            <div>
+              <input type="text" placeholder="Enter Card Number" />
+            </div>
+            <div>
+              <input type="date" placeholder="Expiry" />
+            </div>
+            <div>
+              <input type="checkbox" style="width: 20px; height: 20px" /> save
+              this card details
+            </div>
+            <div>
+              <input type="submit" name="" value="Pay Now" id="submit" />
+            </div>
+          </form>
+        </div>
+        
+      </div>
+      <div id="bagDetails">
+        <div id="div1">
+          
+
+        </div>
+        <div id="div2">
+          <div>
+            <div>SubTotal</div>
+            <div class="total"></div>
+          </div>
+           <div>
+            <div>ShippingCharge</div>
+            <div>Free</div>
+          </div>
+           <div>
+            <div>Discount</div>
+            <div>0</div>
+          </div>
+           <div>
+            <div>Use Reward Points (2000)</div>
+            <div>Apply</div>
+          </div>
+           <div>
+            <div>Grand Total</div>
+            <div class="grandtotal"></div>
+          </div>
+         
+         
+        </div>
+        <div id="div3">
+            <h4>SHIPPING ADDRESS     <span id="addressChange"><button onclick="window.location.href='address.html'">Change</button></span></h4>
+            
+        </div> 
+      </div>
+    </div>
+  </body>
+</html>
+<script type="module">
+  // import { selected } from "/akash file/cardDetails.js";
+    let email=document.querySelector("#email")
+  let user=JSON.parse(localStorage.getItem("userdata"))
+  email.innerHTML=user.email
+
+
+  function selected(val){
+    console.log(val)
+    if(val==="UPI")
+    {
+        return `<div id="UPI">
+            <form action="">
+                <div>
+                    <h4>UPI ID</h4>
+                </div>
+                <div>
+                    <input type="text" placeholder="VPA/UPI Id (eg 9441689428@upi)" required>
+                </div>
+                <div>
+                    <input type="submit" value="Pay Now" id="submit">
+                </div>
+            </form>
+        </div> `;
+    }
+    else if (val == "Google Pay")
+    {
+        return ` <div id="googlePay">
+            <form action="">
+                <div>
+                    <h4>Google Pay</h4>
+                </div>
+                <div>
+                    <input type="text" placeholder="Enter Mobile Number/Gpay Id" required>
+                </div>
+                <div>
+                    <input type="submit" value="Pay Now" id="submit">
+                </div>
+            </form>
+        </div>`;
+
+
+    }
+    else if (val == "Credit/Debit Card") {
+      return `<div id="credit">
+          <form action="">
+            <div>
+              <h4>Credit/Debit Card</h4>
+            </div>
+            <div>
+              <input type="text" placeholder="Enter Card Number" required/>
+            </div>
+            <div>
+              <input type="date" placeholder="Expiry" />
+            </div>
+            <div>
+              <input type="checkbox" style="width: 20px; height: 20px" /> save
+              this card details
+            </div>
+            <div>
+              <input type="submit" name="" value="Pay Now" id="submit" />
+            </div>
+          </form>
+        </div>`;
+    }
+    else if(val=="Cash On Delivery")
+    {
+        return `<div id="cod">
+            <form action="">
+                <div>
+                    <h4>Cash On Delivery</h4>
+                </div>
+                
+                <div>
+                    <input type="submit" value="Confirm Your Order" id="submit">
+                </div>
+            </form>
+        </div>`;
+    }
+    else if(val=="Net Banking")
+    {
+        return `<div id="banks">
+            <form action="">
+                <div>
+                    <h4>Net Banking</h4>
+                </div>
+                <div id="bank">
+                  <div>
+                    <img src="https://www.nykaaman.com/assets/mobile/icons/checkout/axis.png"></img>
+                    <p>AXIS</p>
+
+                  </div>
+                  <div>
+                     <img src="https://www.nykaaman.com/assets/mobile/icons/checkout/hdfc.png" alt="">
+                     <p>HDFC</p>
+
+                  </div>
+                  <div>
+                     <img src="https://www.nykaaman.com/assets/mobile/icons/checkout/icici.png" alt="">
+                     <p>ICICI</p>
+
+                  </div>
+                  <div>
+                     <img src="https://www.nykaaman.com/assets/mobile/icons/checkout/kotak.png" alt="">
+                     <p>KOTAK</p>
+
+                  </div>
+                  <div>
+                     <img src="https://www.nykaaman.com/assets/mobile/icons/checkout/sbi.png" alt="">
+                     <p>SBI</p>
+
+                  </div>
+                  <div>
+                     <img src="https://www.nykaaman.com/assets/mobile/icons/checkout/yes.png" alt="">
+                     <p>YES</p>
+
+                  </div>
+                </div>
+                <div>
+                    <input  type="submit" value="Pay Now" id="submit">
+                </div>
+            </form>
+        </div> `;
+    }
+      
+}
+
+
+// this is for address data fetching and appending
+
+
+let address;
+ var token = localStorage.getItem("token");
+  let addressData = async () => {
+    try {
+      address = await fetch("https://nykaaman-clone.herokuapp.com/addresses", {
+        method: "GET",
+
+        headers: {
+          Authorization: `Bearer ${token}`,
+          "Content-Type": "application/json",
+        },
+      });
+
+      address = await address.json();
+      console.log(address);
+      // c.innerHTML = data.length;
+      // if (flag == true) {
+      //   appendData(data);
+      //   flag = false;
+      // }
+      appendAddress()
+
+    } catch (error) {
+      console.log(error);
+    }
+  };
+  addressData();
+  // let address = JSON.parse(localStorage.getItem("addressDetails")) || [];
+  //  let bagdata = JSON.parse(localStorage.getItem("finalproduct"));
+
+  //  let cart=JSON.parse(localStorage.getItem("cart"));
+  // let token = localStorage.getItem("token");
+
+ // let token = localStorage.getItem("token");
+ 
+  var data = await fetch("https://nykaaman-clone.herokuapp.com/carts",{
+    method:"GET",
+    headers:{
+      Authorization:`Bearer ${token}`,
+        "Content-Type":"application/json"
+    }
+    
+  })
+  let bagdata=await data.json()
+  console.log(data)
+  
+
+  window.onclick = (e) => {
+    let val = e.target.innerText;
+    console.log(val);
+
+    if (
+      val == "Credit/Debit Card" ||
+      val == "UPI" ||
+      val == "Google Pay" ||
+      val == "Cash On Delivery" ||
+      val == "Net Banking"
+    ) {
+      document.querySelector("#cardDetails").innerHTML = "";
+      document.querySelector("#cardDetails").innerHTML = selected(val);
+    }
+
+
+    let subm = document.querySelector("form");
+    subm.addEventListener("submit", (e) => {
+      e.preventDefault();
+      window.location.href = "thankyu.html";
+      bagdata=[];
+      cart=[];
+      localStorage.setItem("finalproduct",JSON.stringify(bagdata));
+      localStorage.setItem("cart",JSON.stringify(cart));
+    });
+  };
+
+  
+  //  console.log(bagdata)
+   let div1=document.querySelector("#div1")
+   let counter = bagdata.length;
+    let h3 = document.createElement("h3");
+    h3.innerHTML = `<span>${counter}</span> Items In Your Bag`;
+    h3.style.color="rgb(254,176,74)"
+    h3.style.paddingLeft="8px"
+    document.querySelector("#div1").append(h3)
+
+
+var sum=0
+for(var i=0;i<bagdata.length;i++)
+{
+let v=+(bagdata[i].price)
+  
+  sum=sum+v
+}
+
+    document.querySelector(".total").innerHTML=`₹${sum}`
+   document.querySelector(".grandtotal").innerHTML=`₹${sum}`
+
+
+
+   // appending address
+   function appendAddress(){
+let div3=document.querySelector("#div3")
+let index=localStorage.getItem("INDEX")
+console.log(i)
+if(index!=undefined){
+   let name = document.createElement("p");
+      name.innerHTML =address[index].name;
+ let para = document.createElement("p");
+      para.innerHTML =address[index].address;
+      let phone = document.createElement("h5");
+      phone.innerHTML = address[index].phone; 
+      div3.append(name,para,phone)     
+  
+}
+else{
+   let name = document.createElement("p");
+      name.innerHTML =address[0].name;
+ let para = document.createElement("p");
+      para.innerHTML =address[0].address;
+      let phone = document.createElement("h5");
+      phone.innerHTML = address[0].phone; 
+      div3.append(name,para,phone)     
+}
+   }
+
+</script>

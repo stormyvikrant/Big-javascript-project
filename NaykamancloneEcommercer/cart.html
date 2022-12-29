@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://kit.fontawesome.com/27207b3a5e.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="Cart.css" />
+  </head>
+  <body>
+    <!-- this button should be added on index page on cart icon -->
+    <button onclick="hide()">Hide</button>
+    <div id="test">
+
+   
+    <div id="cart-items">
+        
+      <div id="heading">
+        <span onclick="myFunction()"><i class="fas fa-angle-left fa-2x"></i></span>
+        <span><h2>Shopping Bag</h2></span>
+      </div>
+<div id="scrollBox">
+
+
+      <div id="hide">
+
+        <div class="V-firstDiv">
+          <input type="checkbox" id="check" checked />
+          <label for=""
+            >Extra 10% OFF on orders above Rs 1000. Use Code NYKAAMAN10.</label
+          >
+        </div>
+        <div class="V-SecondDiv">
+          <input type="checkbox" id="check" />
+          <label id="reward" for="">2000 Reward Points Rs20</label>
+          <p>Apply</p>
+        </div>
+      </div>
+      
+      <div id="V-cart-products"></div>
+      <div id="V-total-details">
+          
+        <h2>Payment Details</h2>
+        <div id="V-total-price">
+          <table>
+            <tbody>
+              <tr>
+                <td class="td1" >Bag Total</td>
+                <td id="total">0</td>
+              </tr>
+              <tr>
+                <td class="td1">Bag Discount</td>
+                <td id="bigDis">0</td>
+              </tr>
+              <tr>
+                <td class="td1">Sub Total</td>
+                <td id="subtotal">0</td>
+              </tr>
+              <tr>
+                <td class="td1">Shipping Charge</td>
+                <td id="shipping">0</td>
+              </tr>
+              <tr>
+                <td class="td1">Grand Total</td>
+                <td id="grand">0</td>
+              </tr>
+            </tbody>
+          </table>
+          <input type="text" name="" id="coupon" placeholder="Have a Coupon ?">
+        </div>
+        <hr>
+        <div>
+
+        </div>
+            <table id="tble">
+                <tbody>
+                    <tr>
+                        <td>Grand Total</td>
+                    </tr>
+                    <tr><td id="grand_total">0</td></tr>
+
+                </tbody>
+            </table>
+            <button id="gotopayment666">PROCEED</button>
+
+        </div>
+    </div>
+
+
+    <div>
+
+
+       
+    </div>
+  </div>
+
+   
+  </body>
+</html>
+<script src="Cart.js"></script>
